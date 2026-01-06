@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html class="light" lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Servicios Mecánicos, Chapa y Pintura en Griñón | Carjumotor</title>
+    <meta name="description"
+        content="Especialistas en mecánica general, diagnosis, neumáticos Goodyear-Dunlop y chapa y pintura profesional. Ofrecemos coche de sustitución gratuito en Griñón y zona sur de Madrid.">
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;family=Noto+Sans:wght@400;500;700;900&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#ec1313",
+                        "background-light": "#f8f6f6",
+                        "background-dark": "#221010",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"],
+                        "body": ["Noto Sans", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark text-[#181111] font-display antialiased overflow-x-hidden">
+    <a aria-label="Chat on WhatsApp"
+        class="fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 bg-[#25D366] rounded-full shadow-lg hover:scale-110 transition-transform duration-300"
+        href="https://wa.me/34918149116?text=Hola%20Carjumotor,%20necesito%20información" target="_blank"
+        rel="noopener noreferrer">
+        <span class="material-symbols-outlined text-white text-3xl">chat</span>
+    </a>
+    <header class="sticky top-0 z-40 w-full bg-yellow-50 border-b border-[#f4f0f0] shadow-sm">
+        <div class="layout-container flex justify-center w-full">
+            <div class="flex items-center justify-between w-full max-w-[1280px] px-4 py-3 md:px-10">
+                <img src="assets/Logo-Carju.png" alt="Carjumotor" class="h-20 w-auto">
+                <div class="hidden md:flex flex-1 justify-end gap-8 items-center">
+                    <nav class="flex items-center gap-6 lg:gap-9">
+                        <a class="text-[#181111] hover:text-primary text-sm font-medium leading-normal transition-colors"
+                            href="index.html">Inicio</a>
+                        <a class="text-[#181111] hover:text-primary text-sm font-medium leading-normal transition-colors"
+                            href="servicios.html">Servicios</a>
+                        <a class="text-[#181111] hover:text-primary text-sm font-medium leading-normal transition-colors"
+                            href="consejos.html">Consejos</a>
+                        <a class="text-[#181111] hover:text-primary text-sm font-medium leading-normal transition-colors"
+                            href="galeria.html">Galería</a>
+                        <a class="text-[#181111] hover:text-primary text-sm font-medium leading-normal transition-colors"
+                            href="contacto.html">Contacto</a>
+                    </nav>
+                    <div class="hidden lg:flex flex-col text-right mr-4">
+                        <a href="tel:918149116"
+                            class="text-sm font-bold text-[#181111] hover:text-primary transition-colors">918 149
+                            116</a>
+                    </div>
+                    <img src="assets/logo-eurotaller.png" alt="Eurotaller" class="h-10 w-auto object-contain">
+                </div>
+                <button class="md:hidden text-[#181111] p-2">
+                    <span class="material-symbols-outlined">menu</span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main class="flex flex-col w-full items-center">
+        <section class="w-full bg-background-light dark:bg-[#1a1a1a] py-16" id="services">
+            <div class="max-w-[1280px] w-full mx-auto px-4 md:px-10">
+                <div class="flex flex-col gap-10">
+                    <div class="flex flex-col gap-4 text-center md:text-left">
+                        <h2
+                            class="text-[#181111] dark:text-white text-3xl md:text-4xl font-black leading-tight tracking-tight">
+                            Nuestros Servicios
+                        </h2>
+                        <p
+                            class="text-[#4b5563] dark:text-gray-300 text-base md:text-lg font-normal leading-normal max-w-[720px]">
+                            Ofrecemos una amplia gama de servicios para el mantenimiento integral de su vehículo.
+                        </p>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                        <div onclick="toggleService('detalle-mecanica')"
+                            class="flex flex-col gap-4 rounded-xl border border-gray-200 bg-white p-6 shadow-sm hover:shadow-md transition-shadow group cursor-pointer text-left">
+                            <div
+                                class="w-12 h-12 flex items-center justify-center rounded-full bg-red-50 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+                                <span class="material-symbols-outlined text-3xl">build</span>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <h3 class="text-[#181111] text-xl font-bold">Mecánica General</h3>
+                                <p class="text-gray-600 text-sm leading-relaxed">Reparación de motores, embragues, cajas
+                                    de cambio y sistemas de frenado con recambios de primera calidad.</p>
+                            </div>
+                        </div>
+                        <div onclick="toggleService('detalle-lunas')"
+                            class="flex flex-col gap-4 rounded-xl border border-gray-200 bg-white p-6 shadow-sm hover:shadow-md transition-shadow group cursor-pointer text-left">
+                            <div
+                                class="w-12 h-12 flex items-center justify-center rounded-full bg-red-50 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+                                <span class="material-symbols-outlined text-3xl">directions_car</span>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <h3 class="text-[#181111] text-xl font-bold">Lunas</h3>
+                                <p class="text-gray-600 text-sm leading-relaxed">Sustitución y reparación de parabrisas.
+                                    Trabajamos con todas las aseguradoras.</p>
+                            </div>
+                        </div>
+                        <div onclick="toggleService('detalle-diagnosis')"
+                            class="flex flex-col gap-4 rounded-xl border border-gray-200 bg-white p-6 shadow-sm hover:shadow-md transition-shadow group cursor-pointer text-left">
+                            <div
+                                class="w-12 h-12 flex items-center justify-center rounded-full bg-red-50 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+                                <span class="material-symbols-outlined text-3xl">troubleshoot</span>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <h3 class="text-[#181111] text-xl font-bold">Diagnosis</h3>
+                                <p class="text-gray-600 text-sm leading-relaxed">Detección precisa de averías
+                                    electrónicas con equipos de diagnóstico de última generación.</p>
+                            </div>
+                        </div>
+                        <div onclick="toggleService('detalle-neumaticos')"
+                            class="flex flex-col gap-4 rounded-xl border border-gray-200 bg-white p-6 shadow-sm hover:shadow-md transition-shadow group cursor-pointer text-left">
+                            <div
+                                class="w-12 h-12 flex items-center justify-center rounded-full bg-red-50 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+                                <span class="material-symbols-outlined text-3xl">tire_repair</span>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <h3 class="text-[#181111] text-xl font-bold">Neumáticos</h3>
+                                <p class="text-gray-600 text-sm leading-relaxed">Venta, montaje, equilibrado y
+                                    alineación de dirección. Las mejores marcas al mejor precio.</p>
+                            </div>
+                        </div>
+                        <div onclick="toggleService('detalle-aire')"
+                            class="flex flex-col gap-4 rounded-xl border border-gray-200 bg-white p-6 shadow-sm hover:shadow-md transition-shadow group cursor-pointer text-left">
+                            <div
+                                class="w-12 h-12 flex items-center justify-center rounded-full bg-red-50 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+                                <span class="material-symbols-outlined text-3xl">ac_unit</span>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <h3 class="text-[#181111] text-xl font-bold">Aire Acondicionado</h3>
+                                <p class="text-gray-600 text-sm leading-relaxed">Carga de gas, detección de fugas y
+                                    reparación de compresores para tu confort.</p>
+                            </div>
+                        </div>
+                        <div onclick="toggleService('detalle-preitv')"
+                            class="flex flex-col gap-4 rounded-xl border border-gray-200 bg-white p-6 shadow-sm hover:shadow-md transition-shadow group cursor-pointer text-left">
+                            <div
+                                class="w-12 h-12 flex items-center justify-center rounded-full bg-red-50 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+                                <span class="material-symbols-outlined text-3xl">playlist_add_check</span>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <h3 class="text-[#181111] text-xl font-bold">Pre-ITV</h3>
+                                <p class="text-gray-600 text-sm leading-relaxed">Revisión pre-ITV exhaustiva para
+                                    garantizar que tu vehículo pase la inspección sin problemas.</p>
+                            </div>
+                        </div>
+                        <div onclick="toggleService('detalle-electricos')"
+                            class="flex flex-col gap-4 rounded-xl border border-gray-200 bg-white p-6 shadow-sm hover:shadow-md transition-shadow group cursor-pointer text-left">
+                            <div
+                                class="w-12 h-12 flex items-center justify-center rounded-full bg-red-50 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+                                <span class="material-symbols-outlined text-3xl">electric_car</span>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <h3 class="text-[#181111] text-xl font-bold">Eléctricos e Híbridos</h3>
+                                <p class="text-gray-600 text-sm leading-relaxed">Mantenimiento y reparación
+                                    especializado para vehículos eléctricos e híbridos con personal certificado.</p>
+                            </div>
+                        </div>
+                        <div onclick="toggleService('detalle-chapa')"
+                            class="flex flex-col gap-4 rounded-xl border border-gray-200 bg-white p-6 shadow-sm hover:shadow-md transition-shadow group cursor-pointer text-left">
+                            <div
+                                class="w-12 h-12 flex items-center justify-center rounded-full bg-red-50 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+                                <span class="material-symbols-outlined text-3xl">format_paint</span>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <h3 class="text-[#181111] text-xl font-bold">Chapa y Pintura</h3>
+                                <p class="text-gray-600 text-sm leading-relaxed">Reparación de carrocería, eliminación
+                                    de abolladuras y pintura de alta calidad para un acabado perfecto.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="w-full bg-white py-8 border-t border-gray-100 min-h-[300px]">
+            <div class="max-w-[1280px] w-full mx-auto px-4 md:px-10 flex flex-col gap-6">
+
+                <!-- Mecánica General -->
+                <div id="detalle-mecanica" class="hidden service-detail flex flex-col gap-6 relative animate-fade-in">
+                    <button onclick="closeService('detalle-mecanica')"
+                        class="absolute top-0 right-0 p-2 text-gray-400 hover:text-gray-600 transition-colors bg-gray-100 rounded-full">
+                        <span class="material-symbols-outlined">close</span>
+                    </button>
+                    <h3 class="text-2xl md:text-3xl font-bold text-[#181111]">Mecánica General</h3>
+                    <div
+                        class="text-gray-600 dark:text-gray-800 space-y-4 text-base md:text-lg leading-relaxed max-w-[90%]">
+                        <p>En Carjumotor realizamos el mantenimiento de tu coche para que esté en perfectas condiciones.
+                            Nos
+                            encargaremos de que todos los puntos importantes del mismo estén revisados y se encuentren a
+                            punto para su mejor funcionamiento:</p>
+                        <ul class="list-disc pl-5 space-y-2">
+                            <li>Cambio de aceite y filtros.</li>
+                            <li>Revisión pre ITV.</li>
+                            <li>Cambio de pastillas y discos de freno.</li>
+                            <li>Sustitución turbo.</li>
+                            <li>Sustitución de la correa de distribución y del embrague.</li>
+                            <li>Cambio culata.</li>
+                            <li>Cambio amortiguadores.</li>
+                            <li>Autodiagnosis multimarca.</li>
+                        </ul>
+                        <p>Su satisfacción es nuestra mejor garantía. Nuestros precios son muy competitivos.</p>
+                        <p>Pon tu coche en buenas manos, ven a vernos y te indicaremos cuales son las mejores opciones
+                            para
+                            un buen mantenimiento de tu coche.</p>
+                    </div>
+                </div>
+
+                <!-- Lunas -->
+                <div id="detalle-lunas" class="hidden service-detail flex flex-col gap-6 relative animate-fade-in">
+                    <button onclick="closeService('detalle-lunas')"
+                        class="absolute top-0 right-0 p-2 text-gray-400 hover:text-gray-600 transition-colors bg-gray-100 rounded-full">
+                        <span class="material-symbols-outlined">close</span>
+                    </button>
+                    <h3 class="text-2xl md:text-3xl font-bold text-[#181111]">Lunas</h3>
+                    <div
+                        class="text-gray-600 dark:text-gray-800 space-y-4 text-base md:text-lg leading-relaxed max-w-[90%]">
+                        <p>En Carjumotor, te ofrecemos un servicio de cambio de lunas rápido, seguro y de alta calidad.
+                            Entendemos la importancia de contar con un parabrisas y ventanas en perfecto estado para tu
+                            seguridad en la carretera y el bienestar de tu vehículo.</p>
+
+                        <h4 class="font-bold text-lg text-gray-800">¿Por qué elegir Carjumotor para el cambio de lunas?
+                        </h4>
+                        <ul class="list-disc pl-5 space-y-2">
+                            <li><strong>Profesionales especializados:</strong> Nuestro equipo está formado por técnicos
+                                con
+                                experiencia en el cambio de lunas de todas las marcas y modelos de vehículos.</li>
+                            <li><strong>Colaboración con aseguradoras:</strong> Trabajamos con las principales compañías
+                                de
+                                seguros para facilitar el proceso de reparación o reemplazo de lunas de tu vehículo.
+                            </li>
+                            <li><strong>Materiales de calidad:</strong> Utilizamos cristales y adhesivos de primera
+                                calidad
+                                que garantizan la durabilidad y resistencia de las nuevas lunas.</li>
+                            <li><strong>Rapidez en el servicio:</strong> Nos esforzamos por reducir el tiempo de espera,
+                                para que puedas recuperar tu vehículo lo antes posible y seguir tu camino con total
+                                seguridad.</li>
+                        </ul>
+
+                        <h4 class="font-bold text-lg text-gray-800">¿Cuándo es necesario cambiar la luna del coche?</h4>
+                        <p>El cambio de luna es necesario en caso de roturas que afecten a la visibilidad o a la
+                            estructura
+                            del cristal, ya que el parabrisas es una pieza esencial para la seguridad en caso de
+                            impacto. En
+                            Carjumotor, realizamos una evaluación profesional para determinar si el cristal puede ser
+                            reparado o si es mejor optar por un reemplazo completo.</p>
+
+                        <h4 class="font-bold text-lg text-gray-800">Consulta nuestro servicio de cambio de lunas</h4>
+                        <p>Si necesitas cambiar las lunas de tu coche, no dudes en ponerte en contacto con nosotros. En
+                            Carjumotor estamos aquí para ofrecerte un servicio confiable, eficiente y adaptado a tus
+                            necesidades.</p>
+                    </div>
+                </div>
+
+                <!-- Diagnosis -->
+                <div id="detalle-diagnosis" class="hidden service-detail flex flex-col gap-6 relative animate-fade-in">
+                    <button onclick="closeService('detalle-diagnosis')"
+                        class="absolute top-0 right-0 p-2 text-gray-400 hover:text-gray-600 transition-colors bg-gray-100 rounded-full">
+                        <span class="material-symbols-outlined">close</span>
+                    </button>
+                    <h3 class="text-2xl md:text-3xl font-bold text-[#181111]">Diagnosis</h3>
+                    <div
+                        class="text-gray-600 dark:text-gray-800 space-y-4 text-base md:text-lg leading-relaxed max-w-[90%]">
+                        <p>Disponemos del personal cualificado y del software de última tecnología para realizar un
+                            correcto
+                            análisis y diagnóstico de las averías mecánicas y electrónicas que su vehículo pueda tener.
+                        </p>
+                        <p>No dude en traernos su vehículo, sabremos darle una respuesta adecuada a cualquier fallo de
+                            difícil resolución.</p>
+                    </div>
+                </div>
+
+                <!-- Neumáticos -->
+                <div id="detalle-neumaticos" class="hidden service-detail flex flex-col gap-6 relative animate-fade-in">
+                    <button onclick="closeService('detalle-neumaticos')"
+                        class="absolute top-0 right-0 p-2 text-gray-400 hover:text-gray-600 transition-colors bg-gray-100 rounded-full">
+                        <span class="material-symbols-outlined">close</span>
+                    </button>
+                    <h3 class="text-2xl md:text-3xl font-bold text-[#181111]">Neumáticos</h3>
+                    <div
+                        class="text-gray-600 dark:text-gray-800 space-y-4 text-base md:text-lg leading-relaxed max-w-[90%]">
+                        <p>Una parte importante del coche es llevar los neumáticos en perfectas condiciones para evitar
+                            que
+                            puedas sufrir un accidente inevitable.</p>
+                        <p>En Carjumotor recomendamos nuestra línea de neumáticos Goodyear-Dunlop como la mejor
+                            elección,
+                            pero también disponemos de una amplia gama de neumáticos de todas las marcas, a unos precios
+                            muy
+                            competitivos.</p>
+                        <p>Si has tenido un pinchazo o necesitas cambiar de neumáticos porque ya están muy gastados, ven
+                            vernos o consúltanos, te informaremos de nuestros precios.</p>
+                        <p>El montaje de los neumáticos se realizará por nuestro equipo técnico de profesionales con
+                            muchos
+                            años de experiencia en el sector del automóvil.</p>
+                    </div>
+                </div>
+
+                <!-- Aire Acondicionado -->
+                <div id="detalle-aire" class="hidden service-detail flex flex-col gap-6 relative animate-fade-in">
+                    <button onclick="closeService('detalle-aire')"
+                        class="absolute top-0 right-0 p-2 text-gray-400 hover:text-gray-600 transition-colors bg-gray-100 rounded-full">
+                        <span class="material-symbols-outlined">close</span>
+                    </button>
+                    <h3 class="text-2xl md:text-3xl font-bold text-[#181111]">Aire Acondicionado</h3>
+                    <div
+                        class="text-gray-600 dark:text-gray-800 space-y-4 text-base md:text-lg leading-relaxed max-w-[90%]">
+                        <p>Cuando el aire acondicionado le falle no se trata siempre de hacer una carga de aire, en
+                            muchas
+                            ocasiones el circuito tiene una fuga que a veces es complicada de detectar.</p>
+                        <p>En Carjumotor revisamos tu sistema de refrigeración con la tecnología de última generación,
+                            de
+                            esa manera detectamos posibles fugas procediendo a su reparación, y realizamos una recarga
+                            del
+                            gas a unos precios muy competitivos.</p>
+                        <p>Pide tu presupuesto sin compromiso para realizar la carga de tu aire acondicionado, todos los
+                            modelos y marcas, reparaciones garantizadas de calidad.</p>
+                        <p>Ven a vernos o ponte en contacto con nosotros, aclararemos todas esas dudas que te surjan y
+                            que
+                            necesitas que sean contestadas.</p>
+                    </div>
+                </div>
+
+                <!-- Pre-ITV -->
+                <div id="detalle-preitv" class="hidden service-detail flex flex-col gap-6 relative animate-fade-in">
+                    <button onclick="closeService('detalle-preitv')"
+                        class="absolute top-0 right-0 p-2 text-gray-400 hover:text-gray-600 transition-colors bg-gray-100 rounded-full">
+                        <span class="material-symbols-outlined">close</span>
+                    </button>
+                    <h3 class="text-2xl md:text-3xl font-bold text-[#181111]">Pre-ITV</h3>
+                    <div
+                        class="text-gray-600 dark:text-gray-800 space-y-4 text-base md:text-lg leading-relaxed max-w-[90%]">
+                        <p>La finalidad de la ITV (Inspección técnica del vehículo) es que tu coche esté a punto y pase
+                            la
+                            revisión sin ningún problema.</p>
+                        <p>Es recomendable hacer a tu automóvil una revisión anual, y si tienes que pasar la ITV el
+                            motivo
+                            es mayor.</p>
+                        <p>En Carjumotor realizamos la revisión de tu coche y comprobaremos como el estado en el que se
+                            encuentran todos aquellos elementos que tienen que pasar por el servicio técnico, como son:
+                        </p>
+                        <ul class="list-disc pl-5 space-y-2">
+                            <li>Sistema de frenos.</li>
+                            <li>Sistema de encendido.</li>
+                            <li>Luces delanteras y traseras.</li>
+                            <li>Datos técnicos del vehículo.</li>
+                            <li>La carrocería del coche.</li>
+                            <li>Espejos retrovisores y las lunas del vehículo.</li>
+                            <li>Buen funcionamiento de puertas y ventanillas, cinturones de seguridad.</li>
+                            <li>La suspensión.</li>
+                        </ul>
+                        <p>Una buena revisión para que no tengas problemas a la hora de pasar la ITV, de esta manera te
+                            ahorrarás tiempo y dinero.</p>
+                        <p>Ven a vernos o ponte en contacto con nosotros, pide tu cita previa.</p>
+                    </div>
+                </div>
+
+                <!-- Eléctricos e Híbridos -->
+                <div id="detalle-electricos" class="hidden service-detail flex flex-col gap-6 relative animate-fade-in">
+                    <button onclick="closeService('detalle-electricos')"
+                        class="absolute top-0 right-0 p-2 text-gray-400 hover:text-gray-600 transition-colors bg-gray-100 rounded-full">
+                        <span class="material-symbols-outlined">close</span>
+                    </button>
+                    <h3 class="text-2xl md:text-3xl font-bold text-[#181111]">Eléctricos e Híbridos</h3>
+                    <div
+                        class="text-gray-600 dark:text-gray-800 space-y-4 text-base md:text-lg leading-relaxed max-w-[90%]">
+                        <p>Ofrecemos servicio de mantenimiento y resolución de averías a los vehículos eléctricos e
+                            híbridos
+                            enchufables, estando especializados en los modelos Opel Ampera y Chevrolet Volt.</p>
+                        <p>Si en otros talleres no te aceptan el coche por su complejidad o el presupuesto es muy
+                            elevado
+                            contacta con nosotros e intentaremos solucionar el problema y darte un presupuesto
+                            razonable.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Chapa y Pintura -->
+                <div id="detalle-chapa" class="hidden service-detail flex flex-col gap-6 relative animate-fade-in">
+                    <button onclick="closeService('detalle-chapa')"
+                        class="absolute top-0 right-0 p-2 text-gray-400 hover:text-gray-600 transition-colors bg-gray-100 rounded-full">
+                        <span class="material-symbols-outlined">close</span>
+                    </button>
+                    <h3 class="text-2xl md:text-3xl font-bold text-[#181111]">Chapa y Pintura</h3>
+                    <div
+                        class="text-gray-600 dark:text-gray-800 space-y-4 text-base md:text-lg leading-relaxed max-w-[90%]">
+                        <p>Ahora puedes reparar y pintar tu coche en Carjumotor, te ofrecemos un coche de sustitución
+                            mientras estamos pintando o reparando el tuyo, sin coste alguno, además nos hacemos cargo de
+                            una
+                            parte de tu franquicia.</p>
+                        <p>Te ofrecemos un presupuesto sin compromiso, trabajamos con todas las compañías de seguros, y
+                            nuestro taller está concertado con la Mutua Madrileña, te facilitaremos todas las gestiones
+                            a la
+                            hora de preparar tus partes.</p>
+                        <p>Disponemos de un equipo de profesionales, con muchos años de experiencia en el sector del
+                            automóvil, los cuales realizarán su trabajo prestando el máximo empeño en que tenga un
+                            acabado
+                            de calidad, ya que la satisfacción de nuestros clientes es nuestra garantía.</p>
+                        <p>Nuestros trabajos están garantizados durante 12 meses, utilizamos marcas de pintura y lacas
+                            de
+                            primera calidad y pintamos desmontando las piezas para que el acabado sea profesional.
+                            Desconfie
+                            de ofertas con precios muy bajos que suelen basarse en el ahorro de pinturas y lacas de
+                            calidad
+                            y mano de obra no profesional.</p>
+                        <p>Venga a realizar su reparación de chapa o venga a pintar tu coche, un trabajo rápido y con
+                            calidad.</p>
+
+                        <h4 class="font-bold text-lg text-gray-800">Servicios:</h4>
+                        <ul class="list-disc pl-5 space-y-2">
+                            <li><strong>Pintado de turismos y furgonetas:</strong> de gran tamaño gracias a nuestra
+                                cabina
+                                de gran tamaño, su furgoneta o gran turismo con acabados de gran calidad.</li>
+                            <li><strong>Pintado de llantas:</strong> Remozamos y reparamos llantas con desconchones y
+                                desperfectos, las llantas quedarán como nuevas.</li>
+                            <li><strong>Pulido de faros:</strong> Dejaremos tus faros como nuevos, reparación
+                                multimarca,
+                                realizaremos el servicio en muy poco tiempo y podrás volver a disfrutar de una visión
+                                perfecta.</li>
+                        </ul>
+                        <p>Solicita tu presupuesto sin compromiso, nuestros precios son excelentes. Verás tus faros
+                            brillar
+                            nuevamente.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <script>
+            function toggleService(id) {
+                // Hide all details
+                document.querySelectorAll('.service-detail').forEach(el => {
+                    el.classList.add('hidden');
+                });
+
+                // Show the selected one
+                const target = document.getElementById(id);
+                if (target) {
+                    target.classList.remove('hidden');
+                    // Scroll to the content slightly
+                    target.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                }
+            }
+
+            function closeService(id) {
+                const target = document.getElementById(id);
+                if (target) {
+                    target.classList.add('hidden');
+                }
+            }
+        </script>
+    </main>
+    <footer class="bg-white text-gray-900 py-12 border-t border-gray-200">
+        <div class="max-w-[1280px] w-full mx-auto px-4 md:px-10 flex flex-col md:flex-row justify-between gap-10">
+            <div class="flex flex-col gap-4 max-w-sm">
+                <div class="flex items-center gap-2">
+                    <span class="material-symbols-outlined text-primary text-2xl">car_repair</span>
+                    <h2 class="text-xl font-bold">Carjumotor</h2>
+                </div>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Su taller de confianza en Griñón. Especialistas en mecánica general, mantenimiento y diagnosis
+                    electrónica. Calidad y servicio garantizados.
+                </p>
+                <div class="flex gap-4 mt-2">
+                    <a class="text-gray-600 hover:text-primary transition-colors" href="#"><span
+                            class="material-symbols-outlined">public</span></a>
+                    <a class="text-gray-600 hover:text-primary transition-colors" href="#"><span
+                            class="material-symbols-outlined">alternate_email</span></a>
+                </div>
+            </div>
+            <div class="flex flex-col gap-4">
+                <h3 class="text-lg font-bold text-gray-900">Área de Servicio</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-2">
+                    <!-- Griñón -->
+                    <details class="group border-b border-gray-200 last:border-0">
+                        <summary
+                            class="flex justify-between items-center py-2 cursor-pointer list-none text-primary hover:text-gray-900 transition-colors">
+                            <span class="font-bold">Griñón</span>
+                            <span
+                                class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+                        </summary>
+                        <div class="pb-4 text-gray-600 text-sm leading-relaxed space-y-2">
+                            <p>En Carjumotor somos expertos en reparaciones de chapa y pintura en Griñón de automóviles
+                                de todas las marcas y modelos. Estamos firmemente comprometidos con facilitar trabajos
+                                a medida, de máxima calidad y con excelentes acabados.</p>
+                            <p>Garantizamos todos los trabajos durante 12 meses puesto que empleamos marcas de pintura
+                                y lacas de primera calidad. Pintamos desmontando las distintas piezas para que el
+                                resultado sea inmejorable.</p>
+                        </div>
+                    </details>
+
+                    <!-- Humanes de Madrid -->
+                    <details class="group border-b border-gray-800 last:border-0">
+                        <summary
+                            class="flex justify-between items-center py-2 cursor-pointer list-none text-primary hover:text-white transition-colors">
+                            <span class="font-bold">Humanes de Madrid</span>
+                            <span
+                                class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+                        </summary>
+                        <div class="pb-4 text-gray-400 text-sm leading-relaxed space-y-2">
+                            <p>Si busca un taller de chapa y pintura en Humanes, Carjumotor S.L es un taller concertado
+                                con la red de Goodyear-Dunlop que se distinguen por su atención al cliente y
+                                profesionalidad.</p>
+                            <p>Ofrecemos un servicio integral del automóvil disponiendo de personal cualificado y
+                                material de última tecnología para la realización de todos nuestros trabajos. Le
+                                ofrecemos un coche de sustitución gratuito mientras reparamos su vehículo.</p>
+                        </div>
+                    </details>
+
+                    <!-- Torrejón de la Calzada -->
+                    <details class="group border-b border-gray-800 last:border-0">
+                        <summary
+                            class="flex justify-between items-center py-2 cursor-pointer list-none text-primary hover:text-white transition-colors">
+                            <span class="font-bold">Torrejón de la Calzada</span>
+                            <span
+                                class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+                        </summary>
+                        <div class="pb-4 text-gray-400 text-sm leading-relaxed space-y-2">
+                            <p>Prestamos servicio de taller de chapa y pintura en Torrejón de la Calzada con coche de
+                                sustitución gratuito. Presupuestos asequibles y acabado profesional garantizado.</p>
+                            <p>Trabajamos con todas las aseguradoras y gestionamos los partes por usted. Garantía de 12
+                                meses en todos nuestros trabajos de pintura y carrocería.</p>
+                        </div>
+                    </details>
+
+                    <!-- Torrejón de Velasco -->
+                    <details class="group border-b border-gray-800 last:border-0">
+                        <summary
+                            class="flex justify-between items-center py-2 cursor-pointer list-none text-primary hover:text-white transition-colors">
+                            <span class="font-bold">Torrejón de Velasco</span>
+                            <span
+                                class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+                        </summary>
+                        <div class="pb-4 text-gray-400 text-sm leading-relaxed space-y-2">
+                            <p>Servicio de taller de chapa y pintura en Torrejón de Velasco. Acabados de alta calidad
+                                utilizando materiales de primeras marcas y tecnología de vanguardia.</p>
+                            <p>Ofrecemos coche de cortesía sin coste y limpieza integral gratuita al pintar su vehículo
+                                por entero.</p>
+                        </div>
+                    </details>
+
+                    <!-- Cubas de la Sagra -->
+                    <details class="group border-b border-gray-800 last:border-0">
+                        <summary
+                            class="flex justify-between items-center py-2 cursor-pointer list-none text-primary hover:text-white transition-colors">
+                            <span class="font-bold">Cubas de la Sagra</span>
+                            <span
+                                class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+                        </summary>
+                        <div class="pb-4 text-gray-400 text-sm leading-relaxed space-y-2">
+                            <p>Taller especializado en Cubas de la Sagra. Ofrecemos reparaciones de chapa y pintura con
+                                las mejores garantías y coche de sustitución sin coste adicional.</p>
+                            <p>Especialistas en la zona Madrid Sur con atención personalizada y presupuestos sin
+                                compromiso.</p>
+                        </div>
+                    </details>
+
+                    <!-- Serranillos del Valle -->
+                    <details class="group border-b border-gray-800 last:border-0">
+                        <summary
+                            class="flex justify-between items-center py-2 cursor-pointer list-none text-primary hover:text-white transition-colors">
+                            <span class="font-bold">Serranillos del Valle</span>
+                            <span
+                                class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+                        </summary>
+                        <div class="pb-4 text-gray-400 text-sm leading-relaxed space-y-2">
+                            <p>Servicio integral en Serranillos del Valle. Chapa, pintura y mecánica rápida con
+                                diagnóstico avanzado y personal experto.</p>
+                            <p>Garantizamos un acabado perfecto en todas nuestras reparaciones con 12 meses de garantía
+                                total.</p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+            <div class="flex flex-col gap-4">
+                <h3 class="text-lg font-bold text-gray-900">Contacto</h3>
+                <ul class="text-gray-600 text-sm flex flex-col gap-3">
+                    <li class="flex flex-col items-center lg:items-start gap-1">
+                        <span class="material-symbols-outlined text-primary text-lg">location_on</span>
+                        <span>Calle Uruguay 2, Griñón, 28971 Madrid</span>
+                    </li>
+                    <li class="flex flex-col items-center lg:items-start gap-1">
+                        <span class="material-symbols-outlined text-primary text-lg">call</span>
+                        <div class="flex gap-2">
+                            <a href="tel:918149116" class="hover:text-primary transition-colors">918 149 116</a>
+                        </div>
+                    </li>
+                    <li class="flex flex-col items-center lg:items-start gap-1">
+                        <span class="material-symbols-outlined text-primary text-lg">mail</span>
+                        <a href="mailto:carjumotor@gmail.com"
+                            class="hover:text-primary transition-colors">carjumotor@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex flex-col gap-4">
+                <h3 class="text-lg font-bold text-gray-900">Legal</h3>
+                <ul class="text-gray-600 text-sm flex flex-col gap-2">
+                    <li><a class="hover:text-primary transition-colors" href="aviso-legal.html">Aviso Legal</a></li>
+                    <li><a class="hover:text-primary transition-colors" href="politica-privacidad.html">Política de
+                            Privacidad</a></li>
+                    <li><a class="hover:text-primary transition-colors" href="cookies.html">Política de Cookies</a></li>
+                </ul>
+            </div>
+        </div>
+        <div
+            class="max-w-[1280px] w-full mx-auto px-4 md:px-10 mt-10 pt-6 border-t border-gray-200 text-center flex flex-col items-center gap-4">
+            <img src="assets/Logo-red.png" alt="Red de Talleres"
+                class="h-12 w-auto opacity-80 hover:opacity-100 transition-opacity">
+            <div class="text-xs text-gray-500">
+                © 2023 Carjumotor. Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+
