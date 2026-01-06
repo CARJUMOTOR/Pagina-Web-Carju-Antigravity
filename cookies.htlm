@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html class="light" lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Política de Cookies - Carjumotor</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;family=Noto+Sans:wght@400;500;700;900&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#ec1313",
+                        "background-light": "#f8f6f6",
+                        "background-dark": "#221010",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"],
+                        "body": ["Noto Sans", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark text-[#181111] font-display antialiased overflow-x-hidden">
+    <a aria-label="Chat on WhatsApp"
+        class="fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 bg-[#25D366] rounded-full shadow-lg hover:scale-110 transition-transform duration-300"
+        href="https://wa.me/34918149116?text=Hola%20Carjumotor,%20necesito%20información" target="_blank"
+        rel="noopener noreferrer">
+        <span class="material-symbols-outlined text-white text-3xl">chat</span>
+    </a>
+    <header class="sticky top-0 z-40 w-full bg-yellow-50 border-b border-[#f4f0f0] shadow-sm">
+        <div class="layout-container flex justify-center w-full">
+            <div class="flex items-center justify-between w-full max-w-[1280px] px-4 py-3 md:px-10">
+                <div class="flex items-center gap-2 text-[#181111]">
+                    <img src="assets/Logo-Carju.png" alt="Carjumotor" class="h-20 w-auto">
+                </div>
+                <div class="hidden md:flex flex-1 justify-end gap-8 items-center">
+                    <nav class="flex items-center gap-6 lg:gap-9">
+                        <a class="text-[#181111] hover:text-primary text-sm font-medium leading-normal transition-colors"
+                            href="index.html">Inicio</a>
+                        <a class="text-[#181111] hover:text-primary text-sm font-medium leading-normal transition-colors"
+                            href="servicios.html">Servicios</a>
+                        <a class="text-[#181111] hover:text-primary text-sm font-medium leading-normal transition-colors"
+                            href="consejos.html">Consejos</a>
+                        <a class="text-[#181111] hover:text-primary text-sm font-medium leading-normal transition-colors"
+                            href="galeria.html">Galería</a>
+                        <a class="text-[#181111] hover:text-primary text-sm font-medium leading-normal transition-colors"
+                            href="contacto.html">Contacto</a>
+                    </nav>
+                    <div class="hidden lg:flex flex-col text-right mr-4">
+                        <a href="tel:918149116"
+                            class="text-sm font-bold text-[#181111] hover:text-primary transition-colors">918 149
+                            116</a>
+                    </div>
+                    <img src="assets/logo-eurotaller.png" alt="Eurotaller" class="h-10 w-auto object-contain">
+                </div>
+                <button class="md:hidden text-[#181111] p-2">
+                    <span class="material-symbols-outlined">menu</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex flex-col w-full items-center">
+        <section class="max-w-[960px] w-full mx-auto px-4 py-16">
+            <h1 class="text-3xl md:text-5xl font-black mb-8">Política de Cookies</h1>
+            <div class="prose max-w-none text-gray-700">
+                <p>Una cookie es un fichero que se descarga en su ordenador al acceder a determinadas páginas web. Las
+                    cookies permiten a una página web, entre otras cosas, almacenar y recuperar información sobre los
+                    hábitos de navegación de un usuario o de su equipo.</p>
+
+                <h3 class="text-xl font-bold mt-6 mb-2">Tipos de Cookies</h3>
+                <p>En este sitio web utilizamos cookies técnicas, que son aquellas que permiten al usuario la navegación
+                    a través de una página web y la utilización de las diferentes opciones o servicios que en ella
+                    existan.</p>
+
+                <h3 class="text-xl font-bold mt-6 mb-2">Desactivación de Cookies</h3>
+                <p>Usted puede permitir, bloquear o eliminar las cookies instaladas en su equipo mediante la
+                    configuración de las opciones del navegador instalado en su ordenador.</p>
+                <ul class="list-disc ml-6 mt-2">
+                    <li>Chrome</li>
+                    <li>Explorer</li>
+                    <li>Firefox</li>
+                    <li>Safari</li>
+                </ul>
+
+                <h3 class="text-xl font-bold mt-6 mb-2">Cookies de Terceros</h3>
+                <p>Esta web no utiliza servicios de terceros para recopilar información de los usuarios con fines
+                    comerciales sin su consentimiento.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-white text-gray-900 py-12 border-t border-gray-200">
+        <div class="max-w-[1280px] w-full mx-auto px-4 md:px-10 flex flex-col md:flex-row justify-between gap-10">
+            <div class="flex flex-col gap-4 max-w-sm">
+                <div class="flex items-center gap-2">
+                    <span class="material-symbols-outlined text-primary text-2xl">car_repair</span>
+                    <h2 class="text-xl font-bold">Carjumotor</h2>
+                </div>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Su taller de confianza en Griñón. Especialistas en mecánica general, mantenimiento y diagnosis
+                    electrónica. Calidad y servicio garantizados.
+                </p>
+                <div class="flex gap-4 mt-2">
+                    <a class="text-gray-600 hover:text-primary transition-colors" href="#"><span
+                            class="material-symbols-outlined">public</span></a>
+                    <a class="text-gray-600 hover:text-primary transition-colors" href="#"><span
+                            class="material-symbols-outlined">alternate_email</span></a>
+                </div>
+            </div>
+            <div class="flex flex-col gap-4">
+                <h3 class="text-lg font-bold text-gray-900">Área de Servicio</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-2">
+                    <!-- Griñón -->
+                    <details class="group border-b border-gray-200 last:border-0">
+                        <summary
+                            class="flex justify-between items-center py-2 cursor-pointer list-none text-primary hover:text-gray-900 transition-colors">
+                            <span class="font-bold">Griñón</span>
+                            <span
+                                class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+                        </summary>
+                        <div class="pb-4 text-gray-600 text-sm leading-relaxed space-y-2">
+                            <p>En Carjumotor somos expertos en reparaciones de chapa y pintura en Griñón de automóviles
+                                de todas las marcas y modelos. Estamos firmemente comprometidos con facilitar trabajos
+                                a medida, de máxima calidad y con excelentes acabados.</p>
+                            <p>Garantizamos todos los trabajos durante 12 meses puesto que empleamos marcas de pintura
+                                y lacas de primera calidad. Pintamos desmontando las distintas piezas para que el
+                                resultado sea inmejorable.</p>
+                        </div>
+                    </details>
+
+                    <!-- Humanes de Madrid -->
+                    <details class="group border-b border-gray-800 last:border-0">
+                        <summary
+                            class="flex justify-between items-center py-2 cursor-pointer list-none text-primary hover:text-white transition-colors">
+                            <span class="font-bold">Humanes de Madrid</span>
+                            <span
+                                class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+                        </summary>
+                        <div class="pb-4 text-gray-400 text-sm leading-relaxed space-y-2">
+                            <p>Si busca un taller de chapa y pintura en Humanes, Carjumotor S.L es un taller concertado
+                                con la red de Goodyear-Dunlop que se distinguen por su atención al cliente y
+                                profesionalidad.</p>
+                            <p>Ofrecemos un servicio integral del automóvil disponiendo de personal cualificado y
+                                material de última tecnología para la realización de todos nuestros trabajos. Le
+                                ofrecemos un coche de sustitución gratuito mientras reparamos su vehículo.</p>
+                        </div>
+                    </details>
+
+                    <!-- Torrejón de la Calzada -->
+                    <details class="group border-b border-gray-800 last:border-0">
+                        <summary
+                            class="flex justify-between items-center py-2 cursor-pointer list-none text-primary hover:text-white transition-colors">
+                            <span class="font-bold">Torrejón de la Calzada</span>
+                            <span
+                                class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+                        </summary>
+                        <div class="pb-4 text-gray-400 text-sm leading-relaxed space-y-2">
+                            <p>Prestamos servicio de taller de chapa y pintura en Torrejón de la Calzada con coche de
+                                sustitución gratuito. Presupuestos asequibles y acabado profesional garantizado.</p>
+                            <p>Trabajamos con todas las aseguradoras y gestionamos los partes por usted. Garantía de 12
+                                meses en todos nuestros trabajos de pintura y carrocería.</p>
+                        </div>
+                    </details>
+
+                    <!-- Torrejón de Velasco -->
+                    <details class="group border-b border-gray-800 last:border-0">
+                        <summary
+                            class="flex justify-between items-center py-2 cursor-pointer list-none text-primary hover:text-white transition-colors">
+                            <span class="font-bold">Torrejón de Velasco</span>
+                            <span
+                                class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+                        </summary>
+                        <div class="pb-4 text-gray-400 text-sm leading-relaxed space-y-2">
+                            <p>Servicio de taller de chapa y pintura en Torrejón de Velasco. Acabados de alta calidad
+                                utilizando materiales de primeras marcas y tecnología de vanguardia.</p>
+                            <p>Ofrecemos coche de cortesía sin coste y limpieza integral gratuita al pintar su vehículo
+                                por entero.</p>
+                        </div>
+                    </details>
+
+                    <!-- Cubas de la Sagra -->
+                    <details class="group border-b border-gray-800 last:border-0">
+                        <summary
+                            class="flex justify-between items-center py-2 cursor-pointer list-none text-primary hover:text-white transition-colors">
+                            <span class="font-bold">Cubas de la Sagra</span>
+                            <span
+                                class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+                        </summary>
+                        <div class="pb-4 text-gray-400 text-sm leading-relaxed space-y-2">
+                            <p>Taller especializado en Cubas de la Sagra. Ofrecemos reparaciones de chapa y pintura con
+                                las mejores garantías y coche de sustitución sin coste adicional.</p>
+                            <p>Especialistas en la zona Madrid Sur con atención personalizada y presupuestos sin
+                                compromiso.</p>
+                        </div>
+                    </details>
+
+                    <!-- Serranillos del Valle -->
+                    <details class="group border-b border-gray-800 last:border-0">
+                        <summary
+                            class="flex justify-between items-center py-2 cursor-pointer list-none text-primary hover:text-white transition-colors">
+                            <span class="font-bold">Serranillos del Valle</span>
+                            <span
+                                class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+                        </summary>
+                        <div class="pb-4 text-gray-400 text-sm leading-relaxed space-y-2">
+                            <p>Servicio integral en Serranillos del Valle. Chapa, pintura y mecánica rápida con
+                                diagnóstico avanzado y personal experto.</p>
+                            <p>Garantizamos un acabado perfecto en todas nuestras reparaciones con 12 meses de garantía
+                                total.</p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+            <div class="flex flex-col gap-4">
+                <h3 class="text-lg font-bold text-gray-900">Contacto</h3>
+                <ul class="text-gray-600 text-sm flex flex-col gap-3">
+                    <li class="flex items-start gap-2">
+                        <span class="material-symbols-outlined text-primary text-lg mt-0.5">location_on</span>
+                        <span>Calle Uruguay 2, Griñón, 28971 Madrid</span>
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <span class="material-symbols-outlined text-primary text-lg">call</span>
+                        <div class="flex gap-2">
+                            <a href="tel:918149116" class="hover:text-primary transition-colors">918 149 116</a>
+                        </div>
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <span class="material-symbols-outlined text-primary text-lg">mail</span>
+                        <a href="mailto:carjumotor@gmail.com"
+                            class="hover:text-primary transition-colors">carjumotor@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex flex-col gap-4">
+                <h3 class="text-lg font-bold text-gray-900">Legal</h3>
+                <ul class="text-gray-600 text-sm flex flex-col gap-2">
+                    <li><a class="hover:text-primary transition-colors" href="aviso-legal.html">Aviso Legal</a></li>
+                    <li><a class="hover:text-primary transition-colors" href="politica-privacidad.html">Política de
+                            Privacidad</a></li>
+                    <li><a class="hover:text-primary transition-colors" href="cookies.html">Política de Cookies</a></li>
+                </ul>
+            </div>
+        </div>
+        <div
+            class="max-w-[1280px] w-full mx-auto px-4 md:px-10 mt-10 pt-6 border-t border-gray-200 text-center flex flex-col items-center gap-4">
+            <img src="assets/Logo-red.png" alt="Red de Talleres"
+                class="h-12 w-auto opacity-80 hover:opacity-100 transition-opacity">
+            <div class="text-xs text-gray-500">
+                © 2023 Carjumotor. Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
