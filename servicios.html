@@ -83,6 +83,28 @@
             </div>
         </div>
     </header>
+    <!-- Mobile Menu Overlay -->
+    <div id="mobile-menu" class="fixed inset-0 z-50 hidden bg-white flex-col p-6 overflow-y-auto">
+        <div class="flex justify-between items-center mb-8">
+            <img src="assets/Logo-Carju.png" alt="Carjumotor" class="h-16 w-auto">
+            <button id="close-menu" class="text-gray-900 p-2">
+                <span class="material-symbols-outlined text-3xl">close</span>
+            </button>
+        </div>
+        <nav class="flex flex-col gap-6 text-xl font-bold">
+            <a href="index.html" class="text-[#181111] hover:text-primary transition-colors">Inicio</a>
+            <a href="servicios.html" class="text-[#181111] hover:text-primary transition-colors">Servicios</a>
+            <a href="consejos.html" class="text-[#181111] hover:text-primary transition-colors">Consejos</a>
+            <a href="galeria.html" class="text-[#181111] hover:text-primary transition-colors">Galería</a>
+            <a href="contacto.html" class="text-[#181111] hover:text-primary transition-colors">Contacto</a>
+        </nav>
+        <div class="mt-auto pt-10 border-t border-gray-100">
+            <a href="tel:918149116" class="flex items-center gap-3 text-primary font-bold text-lg">
+                <span class="material-symbols-outlined">call</span>
+                918 149 116
+            </a>
+        </div>
+    </div>
     <main class="flex flex-col w-full items-center">
         <section class="w-full bg-background-light dark:bg-[#1a1a1a] py-16" id="services">
             <div class="max-w-[1280px] w-full mx-auto px-4 md:px-10">
@@ -635,7 +657,29 @@
             </div>
         </div>
     </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuBtn = document.querySelector('button.md\\:hidden');
+            const closeBtn = document.getElementById('close-menu');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            if (menuBtn && mobileMenu) {
+                menuBtn.addEventListener('click', () => {
+                    mobileMenu.classList.remove('hidden');
+                    mobileMenu.classList.add('flex');
+                    document.body.style.overflow = 'hidden';
+                });
+            }
+
+            if (closeBtn && mobileMenu) {
+                closeBtn.addEventListener('click', () => {
+                    mobileMenu.classList.add('hidden');
+                    mobileMenu.classList.remove('flex');
+                    document.body.style.overflow = '';
+                });
+            }
+        });
+    </script>
 </body>
 
 </html>
-
