@@ -1,0 +1,1506 @@
+<!DOCTYPE html>
+<html class="light" lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Consejos y Mantenimiento del Neumático | Carjumotor</title>
+    <meta name="description"
+        content="Guía completa sobre el cuidado de neumáticos, mecánica preventiva y consejos para alargar la vida útil de tu vehículo. Información técnica de expertos para conductores.">
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;family=Noto+Sans:wght@400;500;700;900&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#ec1313",
+                        "background-light": "#f8f6f6",
+                        "background-dark": "#221010",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"],
+                        "body": ["Noto Sans", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark text-[#181111] font-display antialiased overflow-x-hidden">
+    <a aria-label="Chat on WhatsApp"
+        class="fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 bg-[#25D366] rounded-full shadow-lg hover:scale-110 transition-transform duration-300"
+        href="https://wa.me/34918149116?text=Hola%20Carjumotor,%20necesito%20información" target="_blank"
+        rel="noopener noreferrer">
+        <span class="material-symbols-outlined text-white text-3xl">chat</span>
+    </a>
+    <header class="sticky top-0 z-40 w-full bg-yellow-50 border-b border-[#f4f0f0] shadow-sm">
+        <div class="layout-container flex justify-center w-full">
+            <div class="flex items-center justify-between w-full max-w-[1280px] px-4 py-3 md:px-10">
+                <img src="assets/Logo-Carju.png" alt="Carjumotor" class="h-20 w-auto">
+                <div class="hidden md:flex flex-1 justify-end gap-8 items-center">
+                    <nav class="flex items-center gap-6 lg:gap-9">
+                        <a class="text-[#181111] hover:text-primary text-sm font-medium leading-normal transition-colors"
+                            href="index.html">Inicio</a>
+                        <a class="text-[#181111] hover:text-primary text-sm font-medium leading-normal transition-colors"
+                            href="servicios.html">Servicios</a>
+                        <a class="text-[#181111] hover:text-primary text-sm font-medium leading-normal transition-colors"
+                            href="consejos.html">Consejos</a>
+                        <a class="text-[#181111] hover:text-primary text-sm font-medium leading-normal transition-colors"
+                            href="galeria.html">Galería</a>
+                        <a class="text-[#181111] hover:text-primary text-sm font-medium leading-normal transition-colors"
+                            href="contacto.html">Contacto</a>
+                    </nav>
+                    <div class="hidden lg:flex flex-col text-right mr-4">
+                        <a href="tel:918149116"
+                            class="text-sm font-bold text-[#181111] hover:text-primary transition-colors">918 149
+                            116</a>
+                    </div>
+                    <img src="assets/logo-eurotaller.png" alt="Eurotaller" class="h-10 w-auto object-contain">
+                </div>
+                <button class="md:hidden text-[#181111] p-2">
+                    <span class="material-symbols-outlined">menu</span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main class="flex flex-col w-full items-center">
+        <section class="w-full bg-white py-16" id="tips">
+            <div class="max-w-[1280px] w-full mx-auto px-4 md:px-10">
+                <div class="flex flex-col gap-8">
+                    <div class="flex items-center justify-between">
+                        <h2 class="text-[#181111] text-3xl font-black leading-tight tracking-tight">Consejos Técnicos
+                        </h2>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <!-- 1. IMPORTANCIA -->
+                        <article
+                            class="flex flex-col gap-3 group cursor-pointer hover:-translate-y-1 transition-transform duration-300">
+                            <div class="overflow-hidden rounded-xl h-56 w-full shadow-md">
+                                <div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
+                                    style='background-image: url("assets/importancia.png");'>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2 px-1">
+                                <span class="text-xs font-bold text-primary uppercase tracking-wider">Seguridad</span>
+                                <h3
+                                    class="text-lg font-bold text-[#181111] leading-snug group-hover:text-primary transition-colors">
+                                    LA IMPORTANCIA DE UN BUEN NEUMÁTICO
+                                </h3>
+                            </div>
+                            <div class="hidden content-source">
+                                <p class="mb-4 text-justify">El cambio de los neumáticos es una inversión que revierte
+                                    en la seguridad activa de nuestro vehículo. Evitar un derrape con lluvia o frenar
+                                    unos metros antes en una emergencia, son hechos que pueden salvarnos la vida y que
+                                    solo los neumáticos de calidad fabricados con la última tecnología en diseño y
+                                    materiales pueden cumplir de la manera más eficaz.</p>
+                                <p class="mb-4 text-justify">La gama Goodyear-Dunlop cumple con las más altas exigencias
+                                    y estándares de fabricación y son punteros en cuanto a tecnología y diseño se
+                                    refiere, habiendo ganado diversos premios por su eficiencia y prestaciones.</p>
+                                <p class="mb-4 text-justify">No dude en cambiar sus neumáticos por la línea
+                                    Goodyear-Dunlop, es una inversión inteligente que le aporta un plus de seguridad a
+                                    su conducción. Los neumáticos «baratos» y de marcas no testadas pueden reducir
+                                    gravemente la seguridad activa de su vehículo.</p>
+                            </div>
+                        </article>
+
+                        <!-- 2. WRANGLER -->
+                        <article
+                            class="flex flex-col gap-3 group cursor-pointer hover:-translate-y-1 transition-transform duration-300">
+                            <div class="overflow-hidden rounded-xl h-56 w-full shadow-md">
+                                <div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
+                                    style='background-image: url("assets/wrangler.png");'>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2 px-1">
+                                <span class="text-xs font-bold text-primary uppercase tracking-wider">Todoterreno</span>
+                                <h3
+                                    class="text-lg font-bold text-[#181111] leading-snug group-hover:text-primary transition-colors">
+                                    WRANGLER ALL-TERRAIN ADVENTURE: EL NEUMÁTICO VERSÁTIL
+                                </h3>
+                            </div>
+                            <div class="hidden content-source">
+                                <p class="mb-4 text-justify">El neumático versátil todoterreno con la rigidez de Kevlar®
+                                    para circular fuera de carretera en cualquier momento. Adherencia segura que le
+                                    permitirá mantener el control del viaje, neumáticos resistentes y duraderos para un
+                                    buen rendimiento de conducción fuera de la carretera y un 37% más de rendimiento del
+                                    kilometraje comparación con la media de los competidores probados.</p>
+                                <p class="mb-4 text-justify">Razones para elegir este neumático:</p>
+                                <ul class="list-disc pl-5 mb-4 text-justify space-y-2">
+                                    <li><strong>Capa reforzada de Kevlar:</strong> Resiste los pinchazos y los cortes
+                                        para una conducción segura fuera de la carretera.</li>
+                                    <li><strong>Tecnología DuraWall:</strong> Ofrece resistencia y ayuda a resistir los
+                                        cortes en los flancos de los neumáticos.</li>
+                                    <li><strong>Diseño optimizado de la banda de rodadura:</strong> Distribución
+                                        uniforme de la presión en toda la huella para un kilometraje mejorado.</li>
+                                    <li><strong>Bordes de agarre mejorados:</strong> Los bordes de agarre generan más
+                                        tracción entre el neumático y la superficie de la carretera, para ofrecer una
+                                        adherencia y un frenado seguros.</li>
+                                    <li><strong>Bloques de protección abiertos:</strong> Ayuda a evacuar el barro del
+                                        neumático y mejora la tracción fuera de la carretera.</li>
+                                </ul>
+                            </div>
+                        </article>
+
+                        <!-- 3. FRENOS -->
+                        <article
+                            class="flex flex-col gap-3 group cursor-pointer hover:-translate-y-1 transition-transform duration-300">
+                            <div class="overflow-hidden rounded-xl h-56 w-full shadow-md">
+                                <div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
+                                    style='background-image: url("assets/frenos.png");'>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2 px-1">
+                                <span
+                                    class="text-xs font-bold text-primary uppercase tracking-wider">Mantenimiento</span>
+                                <h3
+                                    class="text-lg font-bold text-[#181111] leading-snug group-hover:text-primary transition-colors">
+                                    CUÁNDO CAMBIAR LAS PASTILLAS DE FRENO
+                                </h3>
+                            </div>
+                            <div class="hidden content-source">
+                                <p class="mb-4 text-justify">¿Estás pensando en cambiar las pastillas de freno? Entra y
+                                    descubre los factores a tener en cuenta a la hora de revisarlos. Detectar las
+                                    señales de alerta de nuestro sistema de frenado y actuar en consecuencia es de vital
+                                    importancia para nuestra seguridad en carretera. ¿Sabías que las pastillas de freno
+                                    al entrar en contacto con el disco producen una fricción en cada frenada que, con el
+                                    tiempo y el desgaste, las lima, perdiendo su eficacia? Con esto en mente, se hace
+                                    evidente que saber cuándo cambiar las pastillas de freno es de vital importancia
+                                    para el correcto mantenimiento del vehículo y prolongar su vida útil.</p>
+                                <p class="mb-4 text-justify">El desgaste de las pastillas de freno viene ocasionado por
+                                    el uso y el paso del tiempo. Debido al desgaste continuo al que son sometidas, la
+                                    mayoría de fabricantes recomiendan cambiar las pastillas de freno cada 10.000
+                                    kilómetros. No obstante, ante la menor sospecha de deterioro o mal funcionamiento lo
+                                    aconsejable es proceder a su cambio. El grosor mínimo recomendado por los
+                                    fabricantes de pastillas de frenos es de 2 mm. Si la superficie de contacto de las
+                                    pastillas es menos gruesa de lo recomendado, puede provocar daños en los discos de
+                                    freno.</p>
+                                <p class="mb-4 text-justify">El grado de desgaste de las pastillas depende del uso pero
+                                    también del tipo de conducción. Las aceleraciones y frenadas bruscas tienen como
+                                    consecuencia que el desgaste se acelere. Sin embargo, una conducción progresiva y
+                                    eficiente repercute de forma positiva en el cuidado del medio ambiente pero también
+                                    en el ahorro de combustible y el correcto mantenimiento de otros materiales del
+                                    vehículo como el sistema de frenado.</p>
+                                <p class="mb-4 text-justify"><strong>Síntomas de un mal funcionamiento:</strong> Usar
+                                    unas pastillas de freno desgastadas o en mal estado no sólo puede provocar daños en
+                                    los frenos sino restar eficacia a su funcionamiento. Una de las señales que indican
+                                    que las pastillas de freno de nuestro coche están desgastadas es un sonido
+                                    chirriante al frenar. Esto sucede cuando las pastillas están por debajo de su nivel
+                                    de seguridad. El chirrido puede alertarnos de un desgaste en el disco aunque también
+                                    puede deberse a la fricción provocada por las partículas de polvo que quedan
+                                    atrapadas entre pastillas y discos. En todo caso, es una señal de alerta que debemos
+                                    tener en cuenta para consultar con nuestro mecánico.</p>
+                                <p class="mb-4 text-justify">Para comprobar si el estado de nuestras pastillas de freno
+                                    es el adecuado podemos revisar visualmente el espesor de las pastillas que
+                                    localizarás al quitar el neumático y acceder al sistema de frenado (disco y
+                                    pastilla). Las pastillas suelen tener un indicador de grosor mínimo y, en caso de
+                                    que no lo tengan, su grosor debe ser superior a 1-1,5 milímetros. Algunos vehículos
+                                    disponen de un testigo luminoso en el cuadro de mandos con las letras ABS que alerta
+                                    de un mal funcionamiento. Una vez comprobado el estado y realizado el cambio de
+                                    pastillas, se aconseja que en los primeros 100 kilómetros se utilice el freno con
+                                    suavidad y sin brusquedad para garantizar la vida útil de las pastillas.</p>
+                                <p class="mb-4 text-justify"><strong>Correcto mantenimiento del vehículo y distancia de
+                                        frenado:</strong> ¿Sabes cómo afectan las pastillas de freno en mal estado a la
+                                    distancia de frenado? La distancia de frenado es el trayecto recorrido desde el
+                                    instante en que se pisa el pedal de freno hasta el momento en el que el vehículo se
+                                    detiene por completo. En la distancia de detención de un coche influye el tiempo de
+                                    reacción (entre 1 y 1,5 segundos es el tiempo que un conductor tarda en reaccionar y
+                                    activar el freno, durante ese tiempo el coche sigue rodando a igual velocidad), y la
+                                    distancia de frenado (la distancia que el coche recorre hasta que el sistema de
+                                    frenado detiene totalmente el vehículo). A mayor velocidad, más distancia para
+                                    detenerse. Pero además de la velocidad y el tiempo de reacción influyen otros
+                                    factores como la carga del vehículo, el estado del firme, la climatología (el temido
+                                    aquaplaning), el estado del vehículo… Y es ahí donde las pastillas de freno y su
+                                    correcto mantenimiento juegan un papel importante. Cambiar las pastillas de freno de
+                                    manera habitual y comprobar que su nivel de desgaste es el adecuado para el correcto
+                                    funcionamiento del vehículo es una tarea básica de mantenimiento que permitirá
+                                    alargar la vida útil de nuestro sistema de frenado repercutiendo en la seguridad en
+                                    carretera de nuestro coche.</p>
+                            </div>
+                        </article>
+
+                        <!-- 4. EQUIVALENCIA -->
+                        <article
+                            class="flex flex-col gap-3 group cursor-pointer hover:-translate-y-1 transition-transform duration-300">
+                            <div class="overflow-hidden rounded-xl h-56 w-full shadow-md">
+                                <div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
+                                    style='background-image: url("assets/equivalencia.png");'>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2 px-1">
+                                <span
+                                    class="text-xs font-bold text-primary uppercase tracking-wider">Homologación</span>
+                                <h3
+                                    class="text-lg font-bold text-[#181111] leading-snug group-hover:text-primary transition-colors">
+                                    EQUIVALENCIA NEUMÁTICOS: QUÉ TIENES QUE SABER
+                                </h3>
+                            </div>
+                            <div class="hidden content-source">
+                                <p class="mb-4 text-justify">Para quienes tengan neumáticos de medidas raras, saber cómo
+                                    aprovechar la equivalencia en neumáticos es fundamental. ¿Conoces los neumáticos
+                                    equivalentes? Para aquellos conductores que dispongan un coche con neumáticos de
+                                    medidas poco usadas o raras, saber cómo aprovechar la equivalencia entre neumáticos
+                                    puede ser fundamental. Los neumáticos equivalentes cuentan con dimensiones similares
+                                    a las dispuestas para el vehículo, son seguros y están homologados; es decir, son
+                                    completamente legales de cara a pasar la ITV.</p>
+                                <p class="mb-4 text-justify">Cuando se cambian los neumáticos por unos que no son los
+                                    originales del vehículo es posible que variemos las dimensiones con respecto a los
+                                    anteriores. Mirando en la ficha técnica podremos ver qué medida está homologada por
+                                    el fabricante del vehículo. Además deberemos cumplir una serie de características
+                                    técnicas que permitan garantizar la seguridad en carretera.</p>
+                                <p class="mb-2 text-justify"><strong>Qué condiciones debe cumplir un neumático
+                                        equivalente:</strong> Si deseas cambiar los neumáticos del vehículo por unos
+                                    equivalentes, asegúrate que cumplen con los siguientes criterios marcados por el
+                                    Real Decreto 866/2010:</p>
+                                <ul class="list-disc pl-5 mb-4 text-justify space-y-1">
+                                    <li>Indice de carga del neumático equivalente igual o superior al homologado.</li>
+                                    <li>Código de velocidad del neumático equivalente igual o superior al homologado.
+                                    </li>
+                                    <li>Igual diámetro exterior, con una tolerancia del 3%.</li>
+                                    <li>Perfil de la llanta igual a la del neumático homologado.</li>
+                                    <li>No deben de existir interferencias entre el neumático y otras partes del
+                                        vehículo.</li>
+                                    <li>El ancho de vía del coche no debe variar, con una tolerancia de 30 mm.</li>
+                                </ul>
+                                <p class="mb-4 text-justify">Para obtener y comprobar si cumplen las condiciones,
+                                    recurre a la información que te ofrece cada modelo. ¿Sabes leer el etiquetado de tus
+                                    neumáticos? En la parte lateral de cada neumático encontrarás códigos y abreviaturas
+                                    que aportan información relevante sobre sus especificaciones. Cuál es la medida del
+                                    modelo, la velocidad máxima a la que puede ser sometido o la carga que soporta son
+                                    sólo algunos de los datos que aparecen en el etiquetado y que también deberás tener
+                                    en cuenta a la hora de buscar equivalencias.</p>
+                            </div>
+                        </article>
+
+                        <!-- 5. ETIQUETADO -->
+                        <article
+                            class="flex flex-col gap-3 group cursor-pointer hover:-translate-y-1 transition-transform duration-300">
+                            <div class="overflow-hidden rounded-xl h-56 w-full shadow-md">
+                                <div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
+                                    style='background-image: url("assets/etiquetado.png");'>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2 px-1">
+                                <span class="text-xs font-bold text-primary uppercase tracking-wider">Normativa</span>
+                                <h3
+                                    class="text-lg font-bold text-[#181111] leading-snug group-hover:text-primary transition-colors">
+                                    EL ETIQUETADO EUROPEO
+                                </h3>
+                            </div>
+                            <div class="hidden content-source">
+                                <p class="mb-4 text-justify">El etiquetado de tu neumático: lo que debes saber.</p>
+                                <ul class="list-none pl-0 mb-4 text-justify space-y-2">
+                                    <li><strong>A –</strong> La anchura nominal de la llanta en milímetros, medido
+                                        flanco a flanco. Cuando necesites saber el ancho en pulgadas deberás dividir
+                                        este número entre 25.4 (215/25.4 = 8.4 pulgadas), pero siempre lo encontrarás en
+                                        milímetros.</li>
+                                    <li><strong>B –</strong> La relación entre la altura y la profundidad, expresada
+                                        como un porcentaje (si no está presente, se supone que es 82%) y el tipo de
+                                        neumático según su construcción interna: radial (más común), diagonal o sesgo.
+                                        En el caso del ejemplo es 55%, R de radial.</li>
+                                    <li><strong>C –</strong> Código de diámetro de la rueda. Se interpreta en pulgadas.
+                                    </li>
+                                    <li><strong>D –</strong> Índice de carga, tiene una tabla específica de
+                                        equivalencias que va a 60-139 e indican de 250 a 2400 kilos como valor máximo de
+                                        peso que soporta cada neumático.</li>
+                                    <li><strong>E –</strong> Índice de velocidad: este indicador también tiene una tabla
+                                        específica de equivalencias. Indica la velocidad máxima recomendada a la que
+                                        puede circular con carga un neumático. Esta es la tabla de referencias: M: 130
+                                        km/h, N: 140 km/h, P: 150 km/h, Q: 160 km/h, R: 170 km/h, S: 180 km/h, T: 190
+                                        km/h, U: 200 km/h, H: 210 km/h, V: 240 km/h, ZR: +240 km/h, W: 270 km/h, Y: 300
+                                        km/h.</li>
+                                </ul>
+                                <p class="mb-4 text-justify">Desgaste de banda, tracción, temperatura y presión son
+                                    otros de los datos que nos ofrece nuestro neumático y completan este etiquetado.</p>
+                                <p class="mb-4 text-justify"><strong>Neumáticos equivalentes: variación de diámetro no
+                                        superior al 3%.</strong> Para la equivalencia de neumáticos, en la documentación
+                                    del vehículo (Tarjeta de Inspección Técnica de vehículos o ficha técnica) se puede
+                                    ver qué medida de neumáticos ha homologado el fabricante para el vehículo concreto.
+                                    Con la nueva medida instalada deberemos comprobar que la variación del diámetro no
+                                    supera el 3%. En el caso de cumplir con todos los requerimientos, los neumáticos son
+                                    equivalentes y no tendremos que legalizar la situación. Sí que habrá que
+                                    legalizarlos si no cumplen cuatro requerimientos de equivalencia básicos: índice de
+                                    carga, código de velocidad, diámetro exterior y perfil de la llanta. Legalmente no
+                                    está permitida la sustitución de neumáticos cuando esta implique riesgos de
+                                    interferencias con otras partes del vehículo, aun siendo equivalentes.</p>
+                                <p class="mb-4 text-justify">Los neumáticos tienen que estar homologados y sus
+                                    dimensiones y características tienen que ser los previstos por el fabricante para
+                                    cada tipo y modelo de vehículo. Por eso es importante tener en cuenta y calcular la
+                                    equivalencia de neumáticos a la hora de utilizar modelos no contemplados en el
+                                    equipamiento original del vehículo. De esta forma no sólo no tendrás problemas en la
+                                    ITV sino que tendrás garantizado un correcto comportamiento de vehículo-neumático en
+                                    carretera.</p>
+                            </div>
+                        </article>
+
+                        <!-- 6. CUIDADO -->
+                        <article
+                            class="flex flex-col gap-3 group cursor-pointer hover:-translate-y-1 transition-transform duration-300">
+                            <div class="overflow-hidden rounded-xl h-56 w-full shadow-md">
+                                <div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
+                                    style='background-image: url("assets/cuidado-1.png");'>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2 px-1">
+                                <span class="text-xs font-bold text-primary uppercase tracking-wider">Consejos</span>
+                                <h3
+                                    class="text-lg font-bold text-[#181111] leading-snug group-hover:text-primary transition-colors">
+                                    CONSEJOS PARA QUE DUREN MÁS LOS NEUMÁTICOS
+                                </h3>
+                            </div>
+                            <div class="hidden content-source">
+                                <p class="mb-4 text-justify">En Carjumotor, sabemos que los neumáticos son una de las
+                                    partes más importantes de tu vehículo, ya que afectan directamente la seguridad y el
+                                    rendimiento en la carretera. Para ayudarte a mantenerlos en óptimas condiciones y
+                                    ahorrar en costos de reemplazo, hemos reunido una serie de consejos prácticos que te
+                                    ayudarán a prolongar la vida útil de tus neumáticos.</p>
+                                <p class="mb-4 text-justify"><strong>Mantén la presión adecuada:</strong> Una presión
+                                    incorrecta puede desgastar los neumáticos de forma desigual y afectar la seguridad
+                                    de la conducción. Revisa la presión de tus neumáticos al menos una vez al mes y
+                                    ajústala según las recomendaciones del fabricante.</p>
+                                <p class="mb-4 text-justify"><strong>Realiza una alineación y balanceo regular:</strong>
+                                    Una alineación incorrecta puede desgastar rápidamente tus neumáticos. Si notas que
+                                    el vehículo tiende a irse hacia un lado o si el volante vibra, es momento de
+                                    realizar un balanceo y alineación en Carjumotor.</p>
+                                <p class="mb-4 text-justify"><strong>Rota los neumáticos periódicamente:</strong> La
+                                    rotación de neumáticos ayuda a que el desgaste sea uniforme, prolongando su vida
+                                    útil. Se recomienda rotarlos cada 10,000 km o según las indicaciones del fabricante.
+                                </p>
+                                <p class="mb-4 text-justify"><strong>Evita frenar bruscamente y acelera
+                                        suavemente:</strong> La forma en que conduces influye en la durabilidad de los
+                                    neumáticos. Evitar frenazos bruscos y aceleraciones intensas reducirá el desgaste
+                                    prematuro.</p>
+                                <p class="mb-4 text-justify"><strong>Revisa regularmente la profundidad del
+                                        dibujo:</strong> La profundidad del dibujo es fundamental para una buena
+                                    tracción en superficies mojadas. Cuando el dibujo esté por debajo del mínimo
+                                    recomendado, es hora de cambiar los neumáticos.</p>
+                                <p class="mb-4 text-justify">Confía en Carjumotor para el mantenimiento de tus
+                                    neumáticos. En Carjumotor, ofrecemos servicios de mantenimiento integral de
+                                    neumáticos, desde revisiones y alineaciones hasta rotación y cambio de neumáticos
+                                    cuando sea necesario. Nuestro equipo de profesionales está listo para asesorarte y
+                                    ayudarte a maximizar el rendimiento de tus neumáticos, asegurando una conducción
+                                    segura y económica. Prolonga la vida de tus neumáticos con Carjumotor y conduce con
+                                    tranquilidad. ¡Visítanos en Griñón para un servicio completo!</p>
+                            </div>
+                        </article>
+
+                        <!-- 7. FAQ -->
+                        <article
+                            class="flex flex-col gap-3 group cursor-pointer hover:-translate-y-1 transition-transform duration-300">
+                            <div class="overflow-hidden rounded-xl h-56 w-full shadow-md">
+                                <div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
+                                    style='background-image: url("assets/faq.png");'>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2 px-1">
+                                <span class="text-xs font-bold text-primary uppercase tracking-wider">Información</span>
+                                <h3
+                                    class="text-lg font-bold text-[#181111] leading-snug group-hover:text-primary transition-colors">
+                                    PREGUNTAS FRECUENTES SOBRE NEUMÁTICOS
+                                </h3>
+                            </div>
+                            <div class="hidden content-source">
+                                <p class="mb-4 text-justify">En Carjumotor sabemos que los neumáticos son una parte
+                                    esencial de la seguridad y el rendimiento de tu vehículo. Por eso, hemos recopilado
+                                    las preguntas más frecuentes de nuestros clientes para ayudarte a resolver cualquier
+                                    duda que puedas tener sobre su mantenimiento, durabilidad y otros aspectos
+                                    importantes. A continuación, encontrarás respuestas claras y útiles que te ayudarán
+                                    a cuidar mejor tus neumáticos y a mantener tu vehículo en óptimas condiciones.</p>
+                                <p class="mb-4 text-justify"><strong>¿Cuándo es necesario cambiar los
+                                        neumáticos?</strong> Los neumáticos deben cambiarse cuando el dibujo está
+                                    desgastado por debajo de los 1,6 mm, que es el límite legal en muchos países, o si
+                                    presentan daños visibles. En Carjumotor, recomendamos realizar una revisión
+                                    periódica para identificar el momento adecuado para el cambio.</p>
+                                <p class="mb-4 text-justify"><strong>¿Cuál es la presión correcta para los
+                                        neumáticos?</strong> La presión adecuada depende del modelo de tu vehículo. Esta
+                                    información se encuentra en el manual del propietario o en una etiqueta en el marco
+                                    de la puerta del conductor. Mantener la presión correcta mejora el rendimiento y
+                                    evita desgastes irregulares.</p>
+                                <p class="mb-4 text-justify"><strong>¿Por qué es importante la alineación y balanceo de
+                                        los neumáticos?</strong> La alineación y el balanceo aseguran una conducción
+                                    suave y evitan desgastes irregulares. Si notas vibraciones al conducir o el vehículo
+                                    se desvía, es posible que necesite un ajuste.</p>
+                                <p class="mb-4 text-justify"><strong>¿Cada cuánto tiempo debo rotar los
+                                        neumáticos?</strong> La rotación de neumáticos se recomienda cada 10,000 km para
+                                    asegurar un desgaste uniforme. Este procedimiento es rápido y puede alargar la vida
+                                    útil de los neumáticos.</p>
+                                <p class="mb-4 text-justify"><strong>¿Qué debo hacer si veo una grieta o bulto en el
+                                        neumático?</strong> Cualquier daño visible en el neumático, como grietas, bultos
+                                    o perforaciones, debe revisarse de inmediato. Conducir con un neumático dañado es
+                                    peligroso y podría provocar un reventón.</p>
+                                <p class="mb-4 text-justify">Confía en Carjumotor para el Cuidado de tus Neumáticos. En
+                                    Carjumotor, estamos comprometidos con la seguridad y satisfacción de nuestros
+                                    clientes. Nuestro equipo de profesionales está a tu disposición para asesorarte
+                                    sobre cualquier duda relacionada con los neumáticos de tu vehículo. Visítanos en
+                                    nuestro taller en Griñón para un servicio confiable y personalizado.</p>
+                            </div>
+                        </article>
+
+                        <!-- 8. SUV -->
+                        <article
+                            class="flex flex-col gap-3 group cursor-pointer hover:-translate-y-1 transition-transform duration-300">
+                            <div class="overflow-hidden rounded-xl h-56 w-full shadow-md">
+                                <div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
+                                    style='background-image: url("assets/suv.png");'>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2 px-1">
+                                <span class="text-xs font-bold text-primary uppercase tracking-wider">SUV</span>
+                                <h3
+                                    class="text-lg font-bold text-[#181111] leading-snug group-hover:text-primary transition-colors">
+                                    NEUMÁTICOS PARA SUV: QUÉ DEBO SABER
+                                </h3>
+                            </div>
+                            <div class="hidden content-source">
+                                <p class="mb-4 text-justify">Los SUV son vehículos diseñados para ofrecer comodidad y
+                                    rendimiento en una variedad de condiciones, desde carreteras urbanas hasta terrenos
+                                    difíciles. Sin embargo, para aprovechar al máximo sus capacidades, es esencial
+                                    contar con neumáticos adecuados para tu SUV. En Carjumotor, entendemos la
+                                    importancia de elegir los neumáticos correctos, por eso te ofrecemos una guía
+                                    completa con todo lo que debes saber al respecto.</p>
+                                <p class="mb-4 text-justify"><strong>Tipo de neumático según el uso:</strong> Antes de
+                                    seleccionar un neumático, es importante identificar el tipo de conducción que
+                                    realizas con tu SUV:</p>
+                                <ul class="list-disc pl-5 mb-4 text-justify space-y-2">
+                                    <li><strong>Conducción en ciudad y carretera:</strong> Para un uso urbano o en
+                                        autopistas, se recomienda un neumático con enfoque en el confort, la eficiencia
+                                        de combustible y la durabilidad.</li>
+                                    <li><strong>Todo terreno:</strong> Si frecuentas caminos de tierra, nieve o terrenos
+                                        difíciles, un neumático todoterreno (All-Terrain) proporcionará mejor tracción y
+                                        resistencia.</li>
+                                    <li><strong>Uso mixto:</strong> Para quienes combinan la conducción urbana con
+                                        escapadas a terrenos no asfaltados, un neumático mixto o de tracción moderada es
+                                        ideal.</li>
+                                </ul>
+                                <p class="mb-4 text-justify"><strong>Tamaño y especificaciones del neumático:</strong>
+                                    Los neumáticos de los SUV suelen ser más grandes y resistentes que los de los
+                                    vehículos compactos. Es crucial verificar las especificaciones del fabricante para
+                                    el tamaño adecuado, el índice de carga y el índice de velocidad. En Carjumotor, te
+                                    ayudamos a encontrar la mejor opción que se ajuste a las especificaciones de tu SUV.
+                                </p>
+                                <p class="mb-4 text-justify"><strong>Resistencia y durabilidad:</strong> El peso de un
+                                    SUV puede desgastar los neumáticos con mayor rapidez. Los neumáticos para SUV están
+                                    diseñados para soportar más carga y para tener una resistencia superior. Te
+                                    recomendamos elegir marcas reconocidas que ofrezcan compuestos de alta durabilidad,
+                                    como Goodyear o Dunlop.</p>
+                                <p class="mb-4 text-justify"><strong>Tracción y agarre:</strong> La seguridad es
+                                    prioritaria al elegir un neumático. Los SUV, por su tamaño y peso, necesitan
+                                    neumáticos que proporcionen buen agarre, especialmente en curvas y en condiciones de
+                                    lluvia. Un buen neumático para SUV debe ofrecer tracción óptima en todo tipo de
+                                    clima para garantizar una conducción segura.</p>
+                                <p class="mb-4 text-justify"><strong>Cuidado y mantenimiento:</strong> Para prolongar la
+                                    vida útil de tus neumáticos y asegurar un buen rendimiento, es importante mantener
+                                    la presión adecuada, rotarlos regularmente y hacer revisiones periódicas de
+                                    alineación y balanceo. En Carjumotor, ofrecemos servicios de mantenimiento de
+                                    neumáticos para que tu SUV siempre esté en las mejores condiciones.</p>
+                                <p class="mb-4 text-justify">Confía en Carjumotor para asesorarte en la elección de tus
+                                    neumáticos para SUV. En Carjumotor, contamos con un amplio inventario de neumáticos
+                                    de alta calidad para SUV y te ofrecemos asesoramiento personalizado para ayudarte a
+                                    elegir los más adecuados para tus necesidades de conducción. Ya sea que busques
+                                    rendimiento en carretera, durabilidad o tracción en todo terreno, tenemos opciones
+                                    para ti. Visítanos en Griñón y encuentra los neumáticos perfectos para tu SUV.</p>
+                            </div>
+                        </article>
+
+                        <!-- 9. DIBUJO/CAMBIO -->
+                        <article
+                            class="flex flex-col gap-3 group cursor-pointer hover:-translate-y-1 transition-transform duration-300">
+                            <div class="overflow-hidden rounded-xl h-56 w-full shadow-md">
+                                <div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
+                                    style='background-image: url("assets/dibujo.png");'>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2 px-1">
+                                <span class="text-xs font-bold text-primary uppercase tracking-wider">Tutorial</span>
+                                <h3
+                                    class="text-lg font-bold text-[#181111] leading-snug group-hover:text-primary transition-colors">
+                                    CÓMO CAMBIAR NEUMÁTICOS: GUÍA FÁCIL
+                                </h3>
+                            </div>
+                            <div class="hidden content-source">
+                                <p class="mb-4 text-justify">Saber cómo cambiar un neumático es una habilidad útil y
+                                    esencial para cualquier conductor. Ya sea que enfrentes un pinchazo en la carretera
+                                    o que necesites realizar un cambio de temporada, cambiar los neumáticos de forma
+                                    adecuada te ayudará a garantizar tu seguridad y la del vehículo. En Carjumotor te
+                                    presentamos esta guía paso a paso para que aprendas a cambiar los neumáticos de
+                                    manera rápida y eficiente.</p>
+                                <p class="mb-4 text-justify"><strong>Reúne las Herramientas Necesarias:</strong> Antes
+                                    de comenzar, asegúrate de tener las herramientas adecuadas: Gato para levantar el
+                                    vehículo, llave cruz para aflojar y apretar las tuercas, neumático de repuesto
+                                    (asegúrate de que esté en buenas condiciones), guantes y triángulos de emergencia
+                                    para seguridad adicional.</p>
+                                <p class="mb-4 text-justify"><strong>Estaciona en un Lugar Seguro:</strong> Si el cambio
+                                    se realiza en carretera, enciende las luces de emergencia, coloca los triángulos y
+                                    asegúrate de que el vehículo esté en una superficie plana y firme. Acciona el freno
+                                    de mano para evitar que el coche se mueva.</p>
+                                <p class="mb-4 text-justify"><strong>Afloja las Tuercas del Neumático:</strong> Con la
+                                    llave cruz, afloja las tuercas del neumático que necesitas cambiar. No las retires
+                                    completamente aún; simplemente aflójalas para facilitar el desmontaje cuando el
+                                    vehículo esté elevado.</p>
+                                <p class="mb-4 text-justify"><strong>Levanta el Vehículo con el Gato:</strong> Coloca el
+                                    gato en el punto de apoyo adecuado (generalmente indicado en el chasis del vehículo)
+                                    y eleva el coche hasta que el neumático esté completamente suspendido en el aire.
+                                    Asegúrate de que el vehículo esté estable antes de continuar.</p>
+                                <p class="mb-4 text-justify"><strong>Retira el Neumático Dañado:</strong> Una vez
+                                    elevado el vehículo, termina de retirar las tuercas y quita el neumático dañado.
+                                    Colócalo a un lado y guarda las tuercas en un lugar seguro para que no se pierdan.
+                                </p>
+                                <p class="mb-4 text-justify"><strong>Coloca el Neumático de Repuesto:</strong> Alinea el
+                                    neumático de repuesto con los tornillos y coloca las tuercas de forma manual
+                                    primero. Luego, ajusta cada tuerca en forma de cruz para asegurar un ajuste
+                                    uniforme.</p>
+                                <p class="mb-4 text-justify"><strong>Baja el Vehículo y Aprieta las Tuercas:</strong>
+                                    Baja el vehículo con el gato hasta que el neumático toque el suelo. Una vez en el
+                                    suelo, aprieta las tuercas de manera firme y nuevamente en forma de cruz para
+                                    asegurar que el neumático esté bien sujeto.</p>
+                                <p class="mb-4 text-justify"><strong>Verifica la Presión del Neumático:</strong> Después
+                                    de cambiar el neumático, es importante verificar que la presión sea la correcta.
+                                    Esto garantiza una conducción segura hasta que puedas llevar el vehículo a un
+                                    taller.</p>
+                                <p class="mb-4 text-justify">Confía en Carjumotor para el Cuidado de tus Neumáticos. Si
+                                    necesitas ayuda profesional, en Carjumotor estamos a tu disposición. Contamos con un
+                                    equipo de expertos para realizar cambios de neumáticos, revisiones y todo tipo de
+                                    mantenimiento relacionado. Visítanos en nuestro taller en Griñón y asegura el buen
+                                    funcionamiento de tu vehículo con un servicio de calidad y confianza.</p>
+                            </div>
+                        </article>
+
+                        <!-- 10. HIBRIDO INFO -->
+                        <article
+                            class="flex flex-col gap-3 group cursor-pointer hover:-translate-y-1 transition-transform duration-300">
+                            <div class="overflow-hidden rounded-xl h-56 w-full shadow-md">
+                                <div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
+                                    style='background-image: url("assets/hibrido-info.png");'>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2 px-1">
+                                <span class="text-xs font-bold text-primary uppercase tracking-wider">Tecnología</span>
+                                <h3
+                                    class="text-lg font-bold text-[#181111] leading-snug group-hover:text-primary transition-colors">
+                                    CÓMO FUNCIONA UN COCHE HÍBRIDO
+                                </h3>
+                            </div>
+                            <div class="hidden content-source">
+                                <p class="mb-4 text-justify">Te contamos lo que debes saber del coche híbrido: eficaces,
+                                    silenciosos, con bajo nivel de emisiones ¡entra y conoce más! Eficientes,
+                                    silenciosos, con bajo nivel de emisiones y un consumo inferior al de un modelo
+                                    equivalente no-híbrido. Así son los coches híbridos, un tipo de vehículos que
+                                    empiezan extenderse a pesar del reparo inicial que esta tecnología provocó en el
+                                    consumidor medio. Frente a los coches eléctricos y su lucha por conseguir una mayor
+                                    autonomía en sus baterías, los híbridos se plantearon como una alternativa eficiente
+                                    y de bajo consumo porque si algo caracteriza a los híbridos es que recuperan energía
+                                    que otros modelos desperdician. Un híbrido combina dos motorizaciones, un motor de
+                                    combustión interna y otro eléctrico alimentado por baterías adicionales a la
+                                    principal y garantizando su autonomía y usabilidad. Pero, ¿cómo funciona un coche
+                                    híbrido?</p>
+                                <p class="mb-4 text-justify"><strong>Tipos de coches híbridos:</strong> Antes de llegar
+                                    a cómo funciona un coche híbrido, vamos a establecer los tipos de coches. Según la
+                                    arquitectura, los híbridos pueden ser en serie, paralelo o combinados:</p>
+                                <ul class="list-disc pl-5 mb-4 text-justify space-y-2">
+                                    <li><strong>Híbrido en serie:</strong> el motor de combustión interna no tiene
+                                        conexión mecánica con las ruedas, sólo se usa para generar electricidad y
+                                        recargar la batería hasta que se llena, momento en el cual se desconecta
+                                        temporalmente. La tracción es siempre eléctrica.</li>
+                                    <li><strong>Híbrido en paralelo:</strong> tanto el motor térmico como el eléctrico
+                                        se utilizan para dar fuerza a la transmisión a la vez.</li>
+                                    <li><strong>Híbrido combinado:</strong> se combinan los dos motores, es como un
+                                        híbrido en serie pero con conexión mecánica a las ruedas.</li>
+                                </ul>
+                                <p class="mb-4 text-justify">Los híbridos también pueden ser puros o enchufables. El
+                                    puro o full-hybrid circula en determinadas condiciones sólo con el motor eléctrico,
+                                    mientras el térmico está totalmente apagado (el cambio puede ser de forma automática
+                                    o voluntaria). El híbrido enchufable cuenta con baterías recargables y recorre al
+                                    menos 32 kilómetros sin necesidad de otro sistema de propulsión.</p>
+                                <p class="mb-4 text-justify"><strong>Funcionamiento coche híbrido:</strong> Los coches
+                                    híbridos disponen de un motor térmico (de gasolina o diesel) con un nivel de
+                                    potencia inferior al modelo tradicional y un motor eléctrico conectado con la
+                                    transmisión. En condiciones de conducción normal funcionarán alternativamente ambos
+                                    propulsores. Si estamos llaneando y no necesitamos potencia extra, el motor
+                                    eléctrico toma el control. Si necesitamos más velocidad, por ejemplo en una cuesta,
+                                    la combinación de ambos motores proporcionará mayor potencia. El motor eléctrico no
+                                    produce contaminación, es eficiente en cuanto a consumo y ahorra energía interna.
+                                    Para ello cuenta con un generador que recupera energía en las frenadas (frenada
+                                    regenerativa, cuando aplicamos presión al pedal de freno, el sistema empleará parte
+                                    de esa fuerza de frenado en recargar la batería), aprovechando la inercia del coche
+                                    (cuando mantenemos el coche en movimiento gracias a la inercia, por ejemplo en
+                                    pendientes descendentes o en llano, el coche híbrido activa la generación de
+                                    energía) y en las aceleraciones en las que el motor térmico aporte más potencia al
+                                    funcionamiento del coche híbrido.</p>
+                                <p class="mb-4 text-justify">Las baterías de un coche híbrido suelen ser de plomo-ácido,
+                                    níquel-metal hídrido, níquel-cadmio o ión litio que se colocan en la parte trasera
+                                    del vehículo y necesitan un sistema de refrigeración. Para que un híbrido sea más
+                                    eficiente dispone de un sistema de gestión con múltiples sensores que establece la
+                                    combinación más eficiente en cada momento. La centralita del coche híbrido tratará
+                                    de que el motor eléctrico esté en funcionamiento el máximo tiempo posible para
+                                    minimizar el gasto de gasolina, minimizando también las emisiones contaminantes.</p>
+                                <p class="mb-4 text-justify"><strong>Pros y contras del coche híbrido:</strong> Honda
+                                    Insight, Toyota Prius, Chevrolet Volt, Opel Ampera, Lexus, Honda Civic Hybrid… El
+                                    catálogo de coches híbridos es limitado en comparación con los vehículos
+                                    tradicionales y su precio más caro, aunque dicen los expertos más rentable a largo
+                                    precio en cuanto consumo y mantenimiento. Son los pros y contras de una tecnología
+                                    que empieza a recorrer las carreteras españolas a ritmo lento. Según la Asociación
+                                    Española de Fabricantes de Automóviles y Camiones, ANFAC, las ventas de híbridos y
+                                    eléctricos han subido en los años 2024 y 2025 respecto a años anteriores. Los coches
+                                    híbridos se presentan como una solución de movilidad eficiente ya que funcionan
+                                    gracias a la combinación de un motor eléctrico y uno de combustible de gasolina o
+                                    diésel (consumen menos combustible y emiten menos CO2), pero están lejos de la
+                                    aceptación mayoritaria por parte del conductor pese al aumento de ventas anual.</p>
+                            </div>
+                        </article>
+
+                        <!-- 11. COMPARATIVA -->
+                        <article
+                            class="flex flex-col gap-3 group cursor-pointer hover:-translate-y-1 transition-transform duration-300">
+                            <div class="overflow-hidden rounded-xl h-56 w-full shadow-md">
+                                <div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
+                                    style='background-image: url("assets/comparativa.png");'>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2 px-1">
+                                <span class="text-xs font-bold text-primary uppercase tracking-wider">Comparativa</span>
+                                <h3
+                                    class="text-lg font-bold text-[#181111] leading-snug group-hover:text-primary transition-colors">
+                                    COMPARATIVA NEUMÁTICOS BARATOS VS PREMIUM
+                                </h3>
+                            </div>
+                            <div class="hidden content-source">
+                                <p class="mb-4 text-justify">La diferencia en una frenada en mojado a 80 km/h entre un
+                                    coche equipado con neumáticos baratos y otro con neumáticos de calidad puede ser de
+                                    hasta 18 metros. Pero hay más motivos para huir de los neumáticos low cost. Te los
+                                    contamos. En cuestión de mantenimiento de nuestro coche, a veces ahorramos donde no
+                                    se debe. Y en el caso de los neumáticos, un elemento clave para la seguridad, suele
+                                    ser por desconocimiento. Montar neumáticos baratos puede salirnos muy caro, como
+                                    demuestra una interesante comparativa realizada por el RACE.</p>
+                                <p class="mb-4 text-justify">Para la prueba, se utilizaron dos vehículos, uno equipado
+                                    con neumáticos Goodyear, en concreto de la gama EfficientGrip, y otro con neumáticos
+                                    de bajo coste, de una marca que no figura entre las premium. Y no de los peores si
+                                    tenemos en cuenta la etiqueta del neumático; los hay todavía más baratos y con peor
+                                    clasificación. La prueba demuestra que los neumáticos baratos ofrecen menos
+                                    seguridad cuando se trata de valorar la precisión o la capacidad de frenada, que sus
+                                    prestaciones decaen de forma estrepitosa a medida que se desgastan, y que el consumo
+                                    es superior.</p>
+                                <p class="mb-4 text-justify"><strong>Neumáticos baratos: menor seguridad.</strong>
+                                    Intenta visualizarlo: 18 metros. ¿No te haces a la idea? Pues pon cuatro coches
+                                    compactos, del tamaño de un Volkswagen Golf por ejemplo, en fila, uno detrás de
+                                    otro. Y esos son los metros de más que necesita un coche equipado con neumáticos
+                                    baratos o “low cost” para detenerse por completo en una frenada en mojado desde 80
+                                    km/h, comparado con el mismo coche con unos neumáticos de calidad de una marca
+                                    premium. Ahora piensa que eres tú el que vas al volante del coche equipado con
+                                    neumáticos baratos. Y que no estás en un circuito, estás circulando por carretera en
+                                    tráfico abierto… y te toca realizar una frenada de emergencia. No hace falta irnos a
+                                    los 18 metros de diferencia que puede haber entre un neumático con la clasificación
+                                    A y otro con clasificación G en la etiqueta. Cuatro metros más pueden ser clave a la
+                                    hora de evitar un accidente por colisión o alcance. Eso si hablamos de frenada en
+                                    seco, que es lo que contempla la etiqueta del neumático, la herramienta con la que
+                                    cuenta el usuario a la hora de comparar neumáticos nuevos. Pero la prueba realizada
+                                    por el RACE –y lo que nos dice la experiencia a los que nos dedicamos a esto, tras
+                                    muchos kilómetros recorridos– es que, aunque sea menor que en mojado, los neumáticos
+                                    baratos también presentan menor precisión y menos agarre en seco. Esto es debido no
+                                    sólo a la diferencia de compuestos utilizados, también a que un neumático de primera
+                                    marca utiliza una carcasa más rígida y su construcción es más compleja. Entre un
+                                    neumático con clasificación A y otro con clasificación G en la etiqueta puede haber
+                                    hasta 18 metros de diferencia en una frenada en mojado a 80 km/h. Dicho de otra
+                                    forma, aunque aparentemente puedan parecer iguales, tras un neumático “premium” hay
+                                    I+D y tecnología. Y eso se nota en la práctica.</p>
+                                <p class="mb-4 text-justify"><strong>Neumáticos baratos: mayor consumo.</strong> Otro de
+                                    los elementos que contempla la etiqueta del neumático, y que la prueba del RACE
+                                    confirma de forma práctica, es el referido al consumo. Como habrás visto en el
+                                    video, para esta prueba se realizó dos veces un recorrido de 300 km, contemplando
+                                    situaciones de tráfico real por todo tipo de vías. Entre los dos neumáticos
+                                    utilizados, el premium con clasificación energética A, y el “low cost” con
+                                    clasificación B, la medición arroja una diferencia de 0,5 l/100 km. Puede parecer
+                                    poco en principio, pero párate a pensarlo más despacio. Elegir neumáticos con
+                                    clasificación energética A puede suponer un ahorro en consumo de 300 euros durante
+                                    toda la vida de los neumáticos. Esto quiere decir, ni más ni menos, que el ahorro en
+                                    la compra de los neumáticos baratos te va a suponer un agujero en el bolsillo por el
+                                    que se te irán unos 5 céntimos de euro por cada kilómetro recorrido. No, no eches
+                                    cuentas, ya te lo digo yo: a poco que recorras 10.000 km anuales, con los neumáticos
+                                    baratos habrás necesitado 50 euros más en combustible. Multiplícalo por 4 si
+                                    estimamos una duración media de 40.000 km. Y eso considerando que comparamos dos
+                                    neumáticos con clasificaciones A y E, la diferencia es mayor aún si nos vamos a los
+                                    extremos.</p>
+                                <p class="mb-4 text-justify"><strong>Neumáticos baratos: mayor pérdida de prestaciones
+                                        con el desgaste.</strong> Llegamos a un aspecto muy peliagudo: el de la duración
+                                    y el desgaste. Y aquí no hay que fijarse en la duración en cuanto al ahorro que
+                                    puede suponer un neumático barato frente a uno caro. Las marcas premium invierten
+                                    mucho dinero en realizar pruebas que certifican organismos independientes, que
+                                    pueden dar una idea de la duración de sus neumáticos. Aquí vamos a un factor
+                                    importante, puesto que la etiqueta no nos da ninguna indicación sobre cómo varían
+                                    las prestaciones con el desgaste del neumático. Ten en cuenta que las mediciones de
+                                    la etiqueta es con neumáticos nuevos, y una vez que los montas dejan de serlo. Y te
+                                    aseguro que las diferencias que marque la etiqueta entre dos neumáticos nuevos,
+                                    especialmente en lo referido a frenada, aumentan a medida que el neumático se
+                                    desgasta. Sobre todo, cuando comparamos un neumático de calidad con un neumático
+                                    barato. La prueba realizada por el RACE en este sentido también es significativa.
+                                    Ante la exigencia que supone circular en circuito, 450 kilómetros son suficientes
+                                    para comprobar que, a la mitad de la prueba, la degradación que sufre un neumático
+                                    barato comparado con uno de calidad conlleva una pérdida de agarre y de precisión
+                                    que llega a comprometer la seguridad.</p>
+                                <p class="mb-4 text-justify"><strong>Más cosas sobre tus neumáticos.</strong> Elegir
+                                    neumáticos de primeras marcas es, por lo tanto, la mejor forma de invertir en
+                                    seguridad. Tanto para ti, como para el resto de usuarios de la carretera. Y para
+                                    ello, fijarse en la etiqueta del neumático, obligatoria para neumáticos fabricados a
+                                    partir del 1 de julio de 2012, es fundamental. Aunque no debería ser este el único
+                                    criterio. Hay que tener en cuenta que, desafortunadamente, muchos neumáticos
+                                    importados de países asiáticos –principalmente neumáticos chinos– siguen llegando a
+                                    nuestro mercado sin pasar por los controles de calidad necesarios para comprobar que
+                                    su etiquetado es fiable y sus prestaciones se correspondan realmente a lo que marca
+                                    la etiqueta. Revisa las presiones de tus neumáticos una vez al mes, y siempre que
+                                    vayas a realizar un viaje. Por último, un dato seguido de una recomendación. En
+                                    2017, más de un 12 por ciento de las asistencias en carretera realizadas por el RACE
+                                    tuvieron que ver con problemas con los neumáticos. Muchos se podrían evitar
+                                    simplemente comprobando las presiones y su estado –aunque sea una simple inspección
+                                    visual– una vez al mes, y siempre que vayas a afrontar un viaje largo.</p>
+                            </div>
+                        </article>
+
+                        <!-- 12. PREVENTIVO -->
+                        <article
+                            class="flex flex-col gap-3 group cursor-pointer hover:-translate-y-1 transition-transform duration-300">
+                            <div class="overflow-hidden rounded-xl h-56 w-full shadow-md">
+                                <div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
+                                    style='background-image: url("assets/preventivo.png");'>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2 px-1">
+                                <span
+                                    class="text-xs font-bold text-primary uppercase tracking-wider">Mantenimiento</span>
+                                <h3
+                                    class="text-lg font-bold text-[#181111] leading-snug group-hover:text-primary transition-colors">
+                                    MANTENIMIENTO PREVENTIVO DE VEHÍCULOS
+                                </h3>
+                            </div>
+                            <div class="hidden content-source">
+                                <p class="mb-4 text-justify">Cuidar tu coche y garantizar su vida útil es muy sencillo.
+                                    Hay errores de mantenimiento que te pueden salir muy caros. Cuidar tu coche y
+                                    garantizar su vida útil es tan sencillo como seguir una guía rápida de qué debes
+                                    hacer y qué no debes hacer. ¿Cómo evitar los más comunes? ¿Qué hacer para
+                                    asegurarnos el correcto funcionamiento de nuestro vehículo? ¿Qué hacemos mal y
+                                    debemos corregir? Cuidar tu coche y garantizar su vida útil es tan sencillo como
+                                    seguir una guía rápida de qué debes hacer y qué no debes hacer. Te mostramos cómo
+                                    realizar un mantenimiento preventivo de tu vehículo.</p>
+                                <p class="mb-4 text-justify">Todo empieza con el rodaje del vehículo, una práctica que
+                                    se resume en realizar un proceso de adaptación con el coche durante los primeros
+                                    3000-5000 kilómetros para facilitar el ajuste de rodamientos y piezas. Pero el
+                                    correcto mantenimiento del coche continúa con otras rutinas que incluyen cuidados
+                                    básicos como cambio de aceite y filtros, revisar funcionamiento de la batería y
+                                    duración de los neumático, pero, sobre todo, mucho sentido común.</p>
+                                <p class="mb-4 text-justify"><strong>Repostar combustible correcto:</strong> Entre los
+                                    errores de mantenimiento más comunes se encuentra repostar gasolina a un coche
+                                    diesel. Algo que puede parecernos imposible, ocurre más de lo que creemos. Según un
+                                    informe del RACE, más de 5.500 conductores pasaron por esta circunstancia en 2015.
+                                    Desde hace años, la boca del depósito de un coche a gasolina tiene diferente
+                                    diámetro; son más estrechas que las de diésel. Por tanto, equivocarse echando
+                                    gasóleo a un coche de gasolina es complicado, pero no a la inversa. Las
+                                    consecuencias de este error pueden traer daños en la bomba, el filtro del
+                                    combustible, los inyectores o el motor. La solución pasa por el vaciado del depósito
+                                    y un control de daños. Si has repostado combustible y antes de poner en marcha el
+                                    coche te das cuenta del error, la solución es más sencilla: inmovilizar vehículo y
+                                    vaciar depósito. Si pasas a ser consciente del fallo después de poner el coche en
+                                    marcha y circular con gasolina en lugar de diésel, el problema es mayor ya que el
+                                    motor puede verse afectado por el nuevo combustible y, por tanto, la reparación es
+                                    más costosa.</p>
+                                <p class="mb-4 text-justify"><strong>Controlar el nivel de aceite:</strong> Ojo con el
+                                    aceite. Si el nivel de aceite es bajo y no se corrige, el motor no estará
+                                    perfectamente lubricado y las piezas móviles friccionarán las unas con las otras. En
+                                    estos casos, el motor puede griparse y esto supone una de las averías más caras. El
+                                    exceso de aceite en el motor puede llevar a que éste salpique a los cilindros y por
+                                    consecuencia se queme más aceite de lo normal. También puede provocar
+                                    sobrecalentamiento del motor. Controlar los niveles de aceite previene graves daños,
+                                    ya que dependiendo de las piezas afectadas el coste de la reparación puede superar
+                                    los 3.500 euros.</p>
+                                <p class="mb-4 text-justify"><strong>Vigilar el estado de la correa de
+                                        distribución:</strong> La correa de distribución es fundamental para asegurar la
+                                    vida útil del coche, ademas de ser una de las operaciones más costosas en caso de
+                                    avería. En función del motor y el fabricante, se aconseja cambiar la correa de
+                                    distribución al alcanzar entre los 80.000 y 120.000 km o cada cinco años. Cuando no
+                                    se realiza esta operación dentro del mantenimiento preventivo de un vehículo, la
+                                    correa puede romperse y causar daños en todo el motor ocasionando averías en muchos
+                                    de sus componentes. La reparación en estos casos puede alcanzar los 4000 euros
+                                    dependiendo de las piezas afectadas.</p>
+                                <p class="mb-4 text-justify"><strong>Controlar el nivel de líquido
+                                        refrigerante:</strong> El líquido refrigerante tiene como función mantener el
+                                    motor a la temperatura correcta y evitar que las temperaturas muy frías o muy
+                                    calientes le afecten. Además protege de la corrosión del motor y evita formaciones
+                                    calcáreas. Es recomendable revisar los niveles del líquido refrigerante y renovarlo
+                                    cada 2 años o a los 40.000 kilómetros para asegurar todas sus prestaciones. No tener
+                                    un nivel adecuado puede suponer averías graves al afectar al exceso de temperatura
+                                    en el bloque y al funcionamiento de la junta de culata. Las averías tienen distintos
+                                    precios según qué partes han estado afectadas, pudiendo superar los 2.000 euros.</p>
+                                <p class="mb-4 text-justify"><strong>Mantenimiento de la batería:</strong> Según el
+                                    RACE, las baterías son la fuente de la gran mayoría de averías, seguido de problemas
+                                    relacionados con los neumáticos. Pensar que el motor apagado supone que no se gasta
+                                    batería es un error común. Sistemas como las alarmas, las cerraduras de las puertas
+                                    y los sistemas de navegación también necesitan energía cuando el coche está
+                                    aparcado. Por eso es necesario estar pendiente de su correcto funcionamiento. Las
+                                    baterías tienen de media unos 4- 5 años de vida, que puede variar por su excesivo
+                                    uso o por lo contrario. Una batería inactiva durante mucho tiempo se descargará.
+                                    Relacionado con el suministro de energía y la vida útil de la batería, una
+                                    precaución que podemos tener en cuenta es asegurarnos apagar las luces al estacionar
+                                    el vehículo. Aunque la mayoría de coches cuentan con un sistema de apagado
+                                    automático, es recomendable apagar las luces manualmente para evitar que se puedan
+                                    fundir las bombillas y se descargue la batería.</p>
+                                <p class="mb-4 text-justify"><strong>Vigilar el estado de los neumáticos:</strong> No
+                                    asegurar el correcto mantenimiento de los neumáticos es un error frecuente que
+                                    repercute en el mantenimiento general del coche y en la seguridad de nuestros
+                                    desplazamientos por carretera. ¿Cómo comprobar la duración de los neumáticos? En la
+                                    mayoría de países de la UE, la profundidad mínima obligatoria para la banda de
+                                    rodadura es de 1,6 mm. Uno de los factores que influye en el desgaste de los
+                                    neumáticos es la presión y las condiciones de carga. Revisar los indicadores de
+                                    desgaste y la presión de los neumáticos es una tarea de mantenimiento que no debemos
+                                    pasar por alto si queremos asegurar el buen funcionamiento de nuestro vehículo
+                                    evitando desgaste en las gomas que puede derivar en reventones y reducción en la
+                                    eficiencia. Se recomienda revisar la presión del neumático al menos una vez al mes.
+                                    Recuerda que la distancia de frenado para pasar de 90 km/h a 70 km/h es de 40 metros
+                                    con 2,0 bar; pero con 1,0 bar esta distancia se alarga hasta 45 metros, frenando 5
+                                    metros más lejos. Tener en cuenta estos errores dentro del mantenimiento preventivo
+                                    de vehículos y seguir una guía básica de cuidados pueden no solo ayudarnos a
+                                    prevenir costosas averías sino asegurarnos la vida útil de nuestro vehículo por
+                                    mucho tiempo y nuestra seguridad en carretera.</p>
+                            </div>
+                        </article>
+
+                        <!-- 13. HIBRIDO MANT -->
+                        <article
+                            class="flex flex-col gap-3 group cursor-pointer hover:-translate-y-1 transition-transform duration-300">
+                            <div class="overflow-hidden rounded-xl h-56 w-full shadow-md">
+                                <div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
+                                    style='background-image: url("assets/hibrido-mant.png");'>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2 px-1">
+                                <span class="text-xs font-bold text-primary uppercase tracking-wider">Híbridos</span>
+                                <h3
+                                    class="text-lg font-bold text-[#181111] leading-snug group-hover:text-primary transition-colors">
+                                    MANTENIMIENTO DE HÍBRIDOS
+                                </h3>
+                            </div>
+                            <div class="hidden content-source">
+                                <p class="mb-4 text-justify">El mantenimiento de híbridos es muy fácil: sigue estos
+                                    sencillos consejos y alargarás la vida de tu coche. ¡Infórmate! “El futuro es
+                                    eléctrico” fue una expresión comúnmente utilizada utilizada en el paso del siglo XIX
+                                    al XX que mantiene aún toda su pertinencia. En la actualidad, aunque lentamente, la
+                                    electricidad se hace cada vez más presente en nuestras carreteras. Si eres uno de
+                                    los nuestros, enamorado de la tecnología, seguro que ya le has echado el ojo a un
+                                    coche híbrido. Mira aquí en qué se diferencian de tu viejo amigo. Los coches
+                                    híbridos, al unir tecnologías de diferentes mundos, presentan necesidades
+                                    específicas de mantenimiento. Incluso con el aumento en costes presumible, busca
+                                    siempre un concesionario de la marca, donde tendrás la certeza de que los mecánicos
+                                    y técnicos tienen la experiencia adecuada. Igualmente, es imperativo que recurras
+                                    siempre a las piezas aconsejadas por la marca. Los híbridos tienen diferentes
+                                    sistemas de frenado, enfriamiento, aire acondicionado, baterías…, y el especialista
+                                    sabe lo que necesitas. Como ya sabrás, las baterías de estos vehículos son bastante
+                                    caras, por eso no te fíes de un mecánico que te prometa los mismos resultados por
+                                    menos dinero: a largo plazo el resultado podrá tener costes muy superiores al ahorro
+                                    inmediato.</p>
+                                <p class="mb-4 text-justify"><strong>¿Qué sabes de los coches híbridos?</strong> El
+                                    motor principal de un vehículo híbrido es el de combustión, por tanto el
+                                    equipamiento básico de componentes es similar al de un coche convencional. Por
+                                    ejemplo: el depósito de combustible, la caja de cambios… También dispone de un motor
+                                    eléctrico, que repercute en el montaje de una batería, aunque de un menor tamaño que
+                                    la que monta un vehículo totalmente eléctrico. La batería de un coche híbrido se
+                                    recarga sin necesidad de enchufarla a la red doméstica, gracias a que este tipo de
+                                    vehículos transforman los momentos en que el coche se encuentra en retención en
+                                    electricidad. Los híbridos funcionan como un coche convencional. No se carga desde
+                                    una red eléctrica como un vehículo eléctrico aunque su funcionamiento en modo solo
+                                    eléctrico es muy limitado. En los momentos en que la batería está totalmente
+                                    descargada, simplemente baja el rendimiento, pero sigue funcionando como un coche de
+                                    combustión interna. Los coches con motor híbrido enchufable son una de las apuestas
+                                    que se imponen cada vez más. Las ventas de vehículos eléctricos e híbridos siguen al
+                                    alza en España con un crecimiento del 82,7% en los siete primeros meses del año.
+                                    Según datos publicados por la Asociación Nacional de Fabricantes de Automóviles y
+                                    Camiones (ANFAC), hasta julio de 2017 se han vendido un total de 35.708 híbridos y
+                                    coches eléctricos, lo que supone un aumento del 80% frente al diesel que cae casi un
+                                    8%. La presencia de vehículos eléctricos e híbridos sigue siendo minoritaria en las
+                                    carreteras pero los expertos aseguran que se observa un cambio de tendencia. En el
+                                    caso de los híbridos enchufables utilizan un propulsor de combustión interna
+                                    (normalmente de gasolina, pero también ya hay versiones diésel), con uno o varios
+                                    motores eléctricos, pudiéndose recargar sus baterías en una red eléctrica y con
+                                    sistemas de recarga en marcha. Esto permite a los híbridos enchufables disponer de
+                                    una autonomía real en modo eléctrico de entre 40 y 60 kilómetros. Una vez descargada
+                                    la batería eléctrica, el motor de combustión funciona en su forma habitual, lo que
+                                    nos permitirá realizar kilómetros sin limitación. El ahorro del combustible de los
+                                    coches híbridos va en función del tipo de híbrido que se trata. Un híbrido medio
+                                    puede llegar al 15%, un híbrido completo al 25% y un híbrido enchufable en torno al
+                                    50% ya que La batería del sistema de tracción se recarga en cualquier momento
+                                    aprovechando energía que en un coche convencional se desaprovecha (por ejemplo: al
+                                    usar una velocidad moderada y constante, al utilizar el freno motor…).</p>
+                                <p class="mb-4 text-justify"><strong>Ojos y oídos atentos.</strong> El diagnóstico de
+                                    problemas comunes en un coche híbrido no es muy diferente de otro coche. Atiende a
+                                    todas los comportamientos raros que se te ocurran. ¿Cuando conectas el coche lo oyes
+                                    “toser”? Puede ser señal de problemas en el encendido o en la combustión, lo que
+                                    requiere ser inspeccionado por un mecánico. Los automóviles híbridos están equipados
+                                    con los componentes de un motor de combustión común y necesitan el mismo tipo de
+                                    mantenimiento, además de periódicos cambios de filtros de aire y aceite. Pero la
+                                    regularidad es diferente: la parte eléctrica soporta algo del esfuerzo que
+                                    normalmente recae sobre el motor de combustión y esas reposiciones son más
+                                    espaciadas en el tiempo. Los elementos de los frenos también necesitan de cambios
+                                    menos frecuentes, debido a las características de aprovechamiento de frenado de
+                                    estos coches. Consulta con el fabricante los periodos de mantenimiento recomendados.
+                                </p>
+                                <p class="mb-4 text-justify"><strong>Vida útil de la batería.</strong> El mayor ataque
+                                    que sus detractores sostienen sobre los híbridos siempre ha sido la duración de la
+                                    batería. Pero los híbridos que actualmente tenemos en el mercado presentan todos una
+                                    vida útil de batería superior a la vida útil del automóvil. Sin embargo, y para
+                                    mantenerse en lo más alto en cuanto desempeño, la química de estas baterías se
+                                    comporta mejor con un nivel de carga entre el 40 y el 60%. De esta forma el elemento
+                                    nunca es completamente descargado ni tampoco cargado, evitando así esfuerzos
+                                    innecesarios. Este nivel de carga puede ser obtenido simplemente a través del
+                                    frenado regenerativo, por eso es un valor a tener en cuenta pero no motivo de
+                                    grandes preocupaciones. Batería, motor, cambios de filtros de aire y aceite, seguir
+                                    esta rutina revisión y cuidado es la mejor forma de diagnosticar problemas y
+                                    asegurar un correcto mantenimiento de los coches híbridos. Prevenir es evitar
+                                    reparaciones a destiempo y… caras.</p>
+                            </div>
+                        </article>
+
+                        <!-- 14. ACEITE -->
+                        <article
+                            class="flex flex-col gap-3 group cursor-pointer hover:-translate-y-1 transition-transform duration-300">
+                            <div class="overflow-hidden rounded-xl h-56 w-full shadow-md">
+                                <div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
+                                    style='background-image: url("assets/aceite.png");'>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2 px-1">
+                                <span class="text-xs font-bold text-primary uppercase tracking-wider">Mecánica</span>
+                                <h3
+                                    class="text-lg font-bold text-[#181111] leading-snug group-hover:text-primary transition-colors">
+                                    ¿CUÁNDO DEBO HACER EL CAMBIO DE ACEITE DEL COCHE?
+                                </h3>
+                            </div>
+                            <div class="hidden content-source">
+                                <p class="mb-4 text-justify">¿Quieres saber cuándo hay cambiar el aceite de tu coche? Es
+                                    una de las claves para prolongar la vida de tu vehículo. Una de las claves para
+                                    prolongar la vida útil del coche y conseguir un funcionamiento del motor suave es
+                                    realizar el cambio de aceite cuando corresponde. Es una parte importante del
+                                    mantenimiento de tu coche que no debes dejar pasar. Si no lo cambias a tiempo no
+                                    filtra la suciedad, puede haber aceite quemado que no lubrica como debería y el
+                                    motor funciona peor. Por eso es importante cambiar el aceite del coche en el momento
+                                    adecuado, pero también utilizar un aceite de calidad, recomendado por el fabricante.
+                                </p>
+                                <p class="mb-4 text-justify">Ya sabemos que cada coche es un mundo y, por esa razón, la
+                                    mejor forma para saber cuándo debes cambiar el aceite de tu coche es guiarte por las
+                                    instrucciones del fabricante. Factores como el rendimiento técnico del aceite o el
+                                    tipo de motor son determinantes en la frecuencia que debes seguir en el cambio de
+                                    aceite, igual que la edad del coche. Si se fabricó antes del 2000, lo ideal es
+                                    cambiarlo entre los 7500 y los 15000 kilómetros, pero si lo compraste más tarde
+                                    puedes recorrer entre 15000 y 30000 km hasta llevar a cabo el cambio de aceite, que
+                                    puedes hacer tú mismo.</p>
+                                <p class="mb-4 text-justify">Pero hablamos de mantenimiento y de prolongar la vida útil
+                                    del coche, así que lo ideal es cambiarlo una vez al año. Solo así te garantizarás la
+                                    mejor eficiencia y funcionamiento del motor, en especial si sueles utilizar el coche
+                                    para viajes cortos. Más allá de cambiar el aceite según las recomendaciones del
+                                    fabricante, también debes revisar el nivel de este líquido. Lo ideal es hacerlo cada
+                                    1000 km o una vez al mes, aunque si estás a punto de emprender un viaje largo
+                                    deberías incluir la revisión del aceite en tu ritual de comprobaciones antes de
+                                    partir.</p>
+                                <p class="mb-4 text-justify"><strong>Cómo comprobar el nivel de aceite:</strong> Mirar
+                                    el aceite es muy fácil. Con el coche estacionado en horizontal y el motor parado y
+                                    frío, abre el capó y busca la varilla del aceite. La identificarás porque es de
+                                    color llamativo. Sácala, límpiala con un paño o un papel y vuelve a introducirla.
+                                    Antes, fíjate bien en dos marcas: una indica el nivel mínimo de aceite y la otra el
+                                    nivel máximo, así que el nivel de la medición debe estar entre las dos. Cuando
+                                    saques la varilla por segunda vez, el mango siempre debe estar por encima de la
+                                    punta para que el aceite no corra y altere la muestra. Si el nivel de aceite está
+                                    dentro de los límites puedes viajar sin problemas. Si ves que está por debajo o muy
+                                    cerca de la marca inferior, debes rellenarlo hasta llegar a niveles óptimos para
+                                    evitar quedarte sin aceite. Tampoco es bueno conducir con más aceite del necesario,
+                                    así que si tienes exceso ve al mecánico para que retire el que sobra. Tanto al
+                                    cambiar de aceite como al rellenarlo, no olvides comprobar en el manual de
+                                    instrucciones del vehículo qué aceite recomienda el fabricante.</p>
+                                <p class="mb-4 text-justify"><strong>Cambiar los filtros: segundo paso.</strong> Además
+                                    de cambiar el aceite, deberás cambiar los filtros. El cambio de filtro solía hacerse
+                                    tradicionalmente junto al del aceite, pero según el tipo de lubricante que utilices
+                                    el filtro aguantará más o menos. Por ejemplo, con un aceite mineral puedes estirar
+                                    el filtro hasta los 9000 km, con aceites semisintéticos aguanta hasta los 12000 en
+                                    el mejor de los casos, con los sintéticos, entre 15000 y 20000 km, y con aceites
+                                    longlife puede llegar a los 30000 km. El cambio de aceite y el de los filtros de
+                                    aceite es una de esas operaciones que tendemos a retrasar al máximo para ahorrarnos
+                                    un poco de dinero, pero debemos seguir las recomendaciones del fabricante para
+                                    asegurar el buen funcionamiento del motor.</p>
+                            </div>
+                        </article>
+
+                        <!-- 15. ALL SEASON -->
+                        <article
+                            class="flex flex-col gap-3 group cursor-pointer hover:-translate-y-1 transition-transform duration-300">
+                            <div class="overflow-hidden rounded-xl h-56 w-full shadow-md">
+                                <div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
+                                    style='background-image: url("assets/all-season.png");'>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2 px-1">
+                                <span class="text-xs font-bold text-primary uppercase tracking-wider">Neumáticos</span>
+                                <h3
+                                    class="text-lg font-bold text-[#181111] leading-snug group-hover:text-primary transition-colors">
+                                    MEJORES NEUMÁTICOS: ¿POR QUÉ ELEGIR UNOS ALL SEASONS?
+                                </h3>
+                            </div>
+                            <div class="hidden content-source">
+                                <p class="mb-4 text-justify">¿Un neumático para cada estación del año? ¿Sabes cómo
+                                    elegir el mejor neumático para otoño? ¿Por qué elegir neumáticos All Seasons es cada
+                                    vez una opción más extendida? Tal y como indica su nombre, los modelos All-Seasons
+                                    (todo tiempo) están pensados para responder en todas las condiciones climatológicas.
+                                    Son una excelente opción para disfrutar de un buen rendimiento durante todo el año
+                                    en una gran variedad de superficies y condiciones climatológicas cambiantes como
+                                    lluvia, granizo, aguanieve y nevadas leves.</p>
+                                <p class="mb-4 text-justify">El mercado de neumáticos all season, una especie de híbrido
+                                    que ofrece buenas prestaciones durante todo el año, ha crecido en los últimos
+                                    tiempos al ser una opción cada vez más más extendida en países con inviernos fríos
+                                    pero sin llegar a las temperaturas extremas del norte o este de Europa. Pero,
+                                    ¿cuándo elegir la gama de neumáticos All Seasons? Un neumático todo-tiempo (All
+                                    Seasons) es especialmente recomendado en aquellas zonas donde los inviernos son
+                                    suaves, hablamos de temperaturas que no bajan de -5 °C. El uso de neumáticos all
+                                    season es también aconsejable si se va a utilizar el mismo juego de ruedas todo el
+                                    año o si por cuestiones de logística doméstica no es viable la posibilidad de
+                                    almacenar e instalar un segundo juego de neumáticos. Rendimiento y tranquilidad al
+                                    volante son las principales necesidades a las que se enfrenta un conductor a la hora
+                                    de elegir neumáticos y son los principales estándares a los que responde Goodyear
+                                    desde 1904, fecha de fabricación del primer modelo de la marca. Los neumáticos
+                                    todo-tiempo de Goodyear cumplen estrictas normas de rendimiento para las condiciones
+                                    invernales y llevan los mismos símbolos (el código “M+S” y el copo de nieve) que
+                                    garantizan un correcto rendimiento en carreteras invernales. El Vector 4Seasons SUV
+                                    Gen-2, la segunda generación de Vector 4Seasons de Goodyear, ofrece una tracción en
+                                    cualquier tipo de condiciones y alto rendimiento en las cuatro estaciones del año.
+                                </p>
+                                <p class="mb-4 text-justify"><strong>Neumáticos all season: tecnología e
+                                        innovación.</strong> Adaptabilidad a la carretera, tracción en todo tipo de
+                                    condiciones y responsable con el medio ambiente. Los continuos avances tecnológicos
+                                    han permitido ofrecer neumáticos todo el año con estándares de calidad más altos. La
+                                    tecnología SmartTred del Vector 4Seasons SUV Gen-2 se adapta a cada estación y a las
+                                    condiciones de la carretera a través de unas zonas específicas en la banda de
+                                    rodadura. Las láminas 3D de la tecnología Weather Reactive en la banda de rodadura
+                                    ofrecen una excelente tracción sobre hielo y nieve y proporciona mayor kilometraje
+                                    (frente a su predecesor) gracias a su compuesto para todo tipo de condiciones y a su
+                                    contorno más plano, que uniformemente extiende la presión llegando más lejos con
+                                    menos combustible. La segunda generación del modelo Vector 4Seasons de Goodyear
+                                    emplea bloques interconectados más pequeños que mejoran su rendimiento en carreteras
+                                    nevadas, mientras que su amplia cavidad aumenta sus prestaciones sobre hielo. El
+                                    empleo de polímeros de última generación y una mayor proporción de sílice garantizan
+                                    un buen rendimiento en carreteras mojadas, heladas y con aguanieve, mientras que sus
+                                    surcos hidrodinámicos proporciona una mayor resistencia al aquaplaning. A pesar de
+                                    la alta resistencia a las diferentes condiciones climatológicas de los Vector
+                                    4Seasons, si sabes con certeza que vas a tener que conducir regularmente sobre nieve
+                                    o hielo, es aconsejable utilizar neumáticos específicos para los meses más fríos.
+                                </p>
+                                <p class="mb-4 text-justify"><strong>5 razones por las que elegir Vector 4Seasons
+                                        Gen-2:</strong></p>
+                                <ul class="list-disc pl-5 mb-4 text-justify space-y-2">
+                                    <li>La segunda generación de Vector 4Seasons garantiza seguridad y control al
+                                        volante durante todo el año, incluso por debajo de 7ºC.</li>
+                                    <li>Los neumáticos all season de Goodyear cuenta con las certificaciones “M+S” y el
+                                        copo de nieve que garantizan su rendimiento en todas las condiciones
+                                        climatológicas.</li>
+                                    <li>Los Vector 4Seasons Gen-2 están avalados por los resultados obtenidos en los
+                                        tests realizados por la organización independiente TÜV: 6% mejor distancia de
+                                        frenado en mojado, 8% mejor distancia de frenado en nieve y 9% mejor distancia
+                                        de frenado en hielo.</li>
+                                    <li>Ofrecen adaptabilidad a las condiciones de la carretera.</li>
+                                    <li>La gama Vector 4Seasons cuenta con más de 30 años de éxitos e innovación. Desde
+                                        1985, Goodyear ha perfeccionado la tecnología detrás de la familia de neumáticos
+                                        Vector. Para elegir el neumático correcto, es necesario conocer las condiciones
+                                        climatológicas y el estado habitual de las carreteras más frecuentes en nuestros
+                                        recorridos diarios así como las características de cada modelo (obtendrás
+                                        información muy útil repasando el etiquetado). Elige pensando en los Kilómetros
+                                        que cuentan y sabiendo que los neumáticos all seasons pueden ser una opción
+                                        aconsejable para todas las estaciones del año.</li>
+                                </ul>
+                            </div>
+                        </article>
+
+                        <!-- 16. DURACION -->
+                        <article
+                            class="flex flex-col gap-3 group cursor-pointer hover:-translate-y-1 transition-transform duration-300">
+                            <div class="overflow-hidden rounded-xl h-56 w-full shadow-md">
+                                <div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
+                                    style='background-image: url("assets/duracion.png");'>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2 px-1">
+                                <span class="text-xs font-bold text-primary uppercase tracking-wider">Información</span>
+                                <h3
+                                    class="text-lg font-bold text-[#181111] leading-snug group-hover:text-primary transition-colors">
+                                    DURACIÓN DE LOS NEUMÁTICOS: TODO LO QUE DEBES SABER
+                                </h3>
+                            </div>
+                            <div class="hidden content-source">
+                                <p class="mb-4 text-justify">¿Cuánto dura un neumático? ¿Qué factores influyen en la
+                                    duración de los neumáticos? ¿Sabías que el 73% de los españoles que cambian de
+                                    neumáticos lo hace porque están desgastados, frente a un 16% que se anticipa al
+                                    desgaste y busca mejorar la seguridad? Según un estudio de la OCU, realizado entre
+                                    más de 33.000 conductores de España, Francia, Italia, Portugal y Bélgica como media,
+                                    recorrieron 42.693 kilómetros antes de cambiar sus neumáticos. Los españoles un poco
+                                    más, exactamente 43.390 kilómetros, tras 2 años y medio de uso, siendo el país en el
+                                    que más tiempo se tarda en sustituirnos. Pero, ¿cuándo deben ser cambiados los
+                                    neumáticos?</p>
+                                <p class="mb-4 text-justify">La vida útil de una neumático depende de condicionantes
+                                    como el estilo de conducción, el correcto mantenimiento del vehículo, la presión del
+                                    neumático… ¿Conoces los indicadores de desgaste de la banda de rodadura? Las letras
+                                    “TWI” nos dicen dónde se encuentran los indicadores de desgaste de la banda de
+                                    rodadura de los neumáticos. Cuando la altura de la goma del dibujo llega al nivel
+                                    del indicador, es muy probable que la profundidad del dibujo esté cerca del límite
+                                    legal. En la mayoría de países de la UE, la profundidad mínima obligatoria para la
+                                    banda de rodadura es de 1,6 mm. Es recomendable examinar estos indicadores
+                                    regularmente para asegurarse de que la banda de rodadura de los neumáticos mantiene
+                                    una profundidad suficiente y no llegar a agotar los neumáticos hasta esa
+                                    profundidad, sobre todo en época de lluvias (con más dibujo, mejor frenada y mejor
+                                    agarre sobre suelo mojado al evacuar mejor el agua).</p>
+                                <p class="mb-4 text-justify">¿Cuánto tarda un neumático en llegar al límite legal de los
+                                    1,6 mm? Uno de los factores que influye en el desgaste de los neumáticos es la
+                                    correcta presión no sólo teniendo en cuenta lo que dice el fabricante del automóvil,
+                                    también el del neumático y, por supuesto, dependiendo de las condiciones de carga
+                                    (no llevas la misma presión cuando vas de vacaciones que cuando andas tú solo por la
+                                    ciudad, o al menos, no deberías). Otro factor no menos importante es el estado de
+                                    las carreteras que transites. Circular por autovía un 90% del tiempo, contribuye a
+                                    alargar la vida del neumático. Una conducción eficiente (velocidad constante,
+                                    acelerar de forma progresiva, correcto uso del freno motor anticipando las
+                                    necesidades de conducción…) contribuye no sólo a ahorrar combustible sino a una
+                                    mayor duración de los neumáticos. En caso de nevadas, se recomienda que el límite
+                                    legal de 1,6 mm suba hasta los 3 mm para aumentar la eficacia. Por otro lado, una
+                                    rotación adecuada puede conseguir una vida media de 40.000 kilómetros para los
+                                    cuatro neumáticos. La posición de los neumáticos traseros multiplica su duración
+                                    hasta el doble que en el caso de los delanteros.</p>
+                                <p class="mb-4 text-justify"><strong>La vida útil de un neumático: señales de su
+                                        envejecimiento.</strong> Después de cinco años o más en servicio, los neumáticos
+                                    deben ser inspeccionados al menos una vez al año. En caso necesario, sigue las
+                                    recomendaciones del fabricante del vehículo sobre la sustitución de los neumáticos
+                                    originales. Como medida de precaución, si los neumáticos no se han cambiado en 10
+                                    años desde la fecha de fabricación revisa también su vida útil y las señales de
+                                    envejecimiento. La fecha de fabricación no guarda relación con su caducidad y no
+                                    indica su eficacia. La vida útil comienza cuando el neumático se instala en el
+                                    automóvil. Desde entonces, las cubiertas deberán examinarse detenidamente por
+                                    profesionales una vez cumplidos sus primeros 6 años de vida, con independencia del
+                                    número de kilómetros acumulados y más si los índices de rodadura bajan de 1,6 mm, lo
+                                    que confirmaría el final de su vida. Hay muchas circunstancias que afectan a la vida
+                                    del neumático como la exposición a temperaturas, la carga del vehículo, la presión
+                                    de los neumáticos, la forma de conducir e incluso desgastes puntuales. Un desgaste
+                                    anormalmente irregular, en alguna zona aislada, en el centro o en los bordes, suele
+                                    indicar un problema mecánico como alineación inadecuada o problemas de equilibrado
+                                    que debemos de tener en cuenta para una conducción eficiente y para asegurarnos el
+                                    buen estado de salud de nuestros neumáticos. Mucho ha avanzado la tecnología de
+                                    fabricación de neumáticos para mejorar prestaciones y adaptarse al ritmo de vida
+                                    diario, pero asegurarnos que nuestro neumáticos duren más y en perfectas condiciones
+                                    tiene mucho que ver con la prevención y el correcto mantenimiento de nuestro
+                                    vehículo.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-white text-gray-900 py-12 border-t border-gray-200">
+        <div class="max-w-[1280px] w-full mx-auto px-4 md:px-10 flex flex-col md:flex-row justify-between gap-10">
+            <div class="flex flex-col gap-4 max-w-sm">
+                <div class="flex items-center gap-2">
+                    <span class="material-symbols-outlined text-primary text-2xl">car_repair</span>
+                    <h2 class="text-xl font-bold">Carjumotor</h2>
+                </div>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Su taller de confianza en Griñón. Especialistas en mecánica general, mantenimiento y diagnosis
+                    electrónica. Calidad y servicio garantizados.
+                </p>
+                <div class="flex gap-4 mt-2">
+                    <a class="text-gray-600 hover:text-primary transition-colors" href="#"><span
+                            class="material-symbols-outlined">public</span></a>
+                    <a class="text-gray-600 hover:text-primary transition-colors" href="#"><span
+                            class="material-symbols-outlined">alternate_email</span></a>
+                </div>
+            </div>
+            <div class="flex flex-col gap-4">
+                <h3 class="text-lg font-bold text-gray-900">Área de Servicio</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-2">
+                    <!-- Griñón -->
+                    <details class="group border-b border-gray-200 last:border-0">
+                        <summary
+                            class="flex justify-between items-center py-2 cursor-pointer list-none text-primary hover:text-gray-900 transition-colors">
+                            <span class="font-bold">Griñón</span>
+                            <span
+                                class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+                        </summary>
+                        <div class="pb-4 text-gray-600 text-sm leading-relaxed space-y-2">
+                            <p>En Carjumotor somos expertos en reparaciones de chapa y pintura en Griñón de automóviles
+                                de todas las marcas y modelos. Estamos firmemente comprometidos con facilitar trabajos
+                                a medida, de máxima calidad y con excelentes acabados.</p>
+                            <p>Garantizamos todos los trabajos durante 12 meses puesto que empleamos marcas de pintura
+                                y lacas de primera calidad. Pintamos desmontando las distintas piezas para que el
+                                resultado sea inmejorable.</p>
+                        </div>
+                    </details>
+
+                    <!-- Humanes de Madrid -->
+                    <details class="group border-b border-gray-800 last:border-0">
+                        <summary
+                            class="flex justify-between items-center py-2 cursor-pointer list-none text-primary hover:text-white transition-colors">
+                            <span class="font-bold">Humanes de Madrid</span>
+                            <span
+                                class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+                        </summary>
+                        <div class="pb-4 text-gray-400 text-sm leading-relaxed space-y-2">
+                            <p>Si busca un taller de chapa y pintura en Humanes, Carjumotor S.L es un taller concertado
+                                con la red de Goodyear-Dunlop que se distinguen por su atención al cliente y
+                                profesionalidad.</p>
+                            <p>Ofrecemos un servicio integral del automóvil disponiendo de personal cualificado y
+                                material de última tecnología para la realización de todos nuestros trabajos. Le
+                                ofrecemos un coche de sustitución gratuito mientras reparamos su vehículo.</p>
+                        </div>
+                    </details>
+
+                    <!-- Torrejón de la Calzada -->
+                    <details class="group border-b border-gray-800 last:border-0">
+                        <summary
+                            class="flex justify-between items-center py-2 cursor-pointer list-none text-primary hover:text-white transition-colors">
+                            <span class="font-bold">Torrejón de la Calzada</span>
+                            <span
+                                class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+                        </summary>
+                        <div class="pb-4 text-gray-400 text-sm leading-relaxed space-y-2">
+                            <p>Prestamos servicio de taller de chapa y pintura en Torrejón de la Calzada con coche de
+                                sustitución gratuito. Presupuestos asequibles y acabado profesional garantizado.</p>
+                            <p>Trabajamos con todas las aseguradoras y gestionamos los partes por usted. Garantía de 12
+                                meses en todos nuestros trabajos de pintura y carrocería.</p>
+                        </div>
+                    </details>
+
+                    <!-- Torrejón de Velasco -->
+                    <details class="group border-b border-gray-800 last:border-0">
+                        <summary
+                            class="flex justify-between items-center py-2 cursor-pointer list-none text-primary hover:text-white transition-colors">
+                            <span class="font-bold">Torrejón de Velasco</span>
+                            <span
+                                class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+                        </summary>
+                        <div class="pb-4 text-gray-400 text-sm leading-relaxed space-y-2">
+                            <p>Servicio de taller de chapa y pintura en Torrejón de Velasco. Acabados de alta calidad
+                                utilizando materiales de primeras marcas y tecnología de vanguardia.</p>
+                            <p>Ofrecemos coche de cortesía sin coste y limpieza integral gratuita al pintar su vehículo
+                                por entero.</p>
+                        </div>
+                    </details>
+
+                    <!-- Cubas de la Sagra -->
+                    <details class="group border-b border-gray-800 last:border-0">
+                        <summary
+                            class="flex justify-between items-center py-2 cursor-pointer list-none text-primary hover:text-white transition-colors">
+                            <span class="font-bold">Cubas de la Sagra</span>
+                            <span
+                                class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+                        </summary>
+                        <div class="pb-4 text-gray-400 text-sm leading-relaxed space-y-2">
+                            <p>Taller especializado en Cubas de la Sagra. Ofrecemos reparaciones de chapa y pintura con
+                                las mejores garantías y coche de sustitución sin coste adicional.</p>
+                            <p>Especialistas en la zona Madrid Sur con atención personalizada y presupuestos sin
+                                compromiso.</p>
+                        </div>
+                    </details>
+
+                    <!-- Serranillos del Valle -->
+                    <details class="group border-b border-gray-800 last:border-0">
+                        <summary
+                            class="flex justify-between items-center py-2 cursor-pointer list-none text-primary hover:text-white transition-colors">
+                            <span class="font-bold">Serranillos del Valle</span>
+                            <span
+                                class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+                        </summary>
+                        <div class="pb-4 text-gray-400 text-sm leading-relaxed space-y-2">
+                            <p>Servicio integral en Serranillos del Valle. Chapa, pintura y mecánica rápida con
+                                diagnóstico avanzado y personal experto.</p>
+                            <p>Garantizamos un acabado perfecto en todas nuestras reparaciones con 12 meses de garantía
+                                total.</p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+            <div class="flex flex-col gap-4">
+                <h3 class="text-lg font-bold text-gray-900">Contacto</h3>
+                <ul class="text-gray-600 text-sm flex flex-col gap-3">
+                    <li class="flex flex-col items-center lg:items-start gap-1">
+                        <span class="material-symbols-outlined text-primary text-lg">location_on</span>
+                        <span>Calle Uruguay 2, Griñón, 28971 Madrid</span>
+                    </li>
+                    <li class="flex flex-col items-center lg:items-start gap-1">
+                        <span class="material-symbols-outlined text-primary text-lg">call</span>
+                        <div class="flex gap-2">
+                            <a href="tel:918149116" class="hover:text-primary transition-colors">918 149 116</a>
+                        </div>
+                    </li>
+                    <li class="flex flex-col items-center lg:items-start gap-1">
+                        <span class="material-symbols-outlined text-primary text-lg">mail</span>
+                        <a href="mailto:carjumotor@gmail.com"
+                            class="hover:text-primary transition-colors">carjumotor@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex flex-col gap-4">
+                <h3 class="text-lg font-bold text-gray-900">Legal</h3>
+                <ul class="text-gray-600 text-sm flex flex-col gap-2">
+                    <li><a class="hover:text-primary transition-colors" href="aviso-legal.html">Aviso Legal</a></li>
+                    <li><a class="hover:text-primary transition-colors" href="politica-privacidad.html">Política de
+                            Privacidad</a></li>
+                    <li><a class="hover:text-primary transition-colors" href="cookies.html">Política de Cookies</a></li>
+                </ul>
+            </div>
+        </div>
+        <div
+            class="max-w-[1280px] w-full mx-auto px-4 md:px-10 mt-10 pt-6 border-t border-gray-200 text-center flex flex-col items-center gap-4">
+            <img src="assets/Logo-red.png" alt="Red de Talleres"
+                class="h-12 w-auto opacity-80 hover:opacity-100 transition-opacity">
+            <div class="text-xs text-gray-500">
+                © 2023 Carjumotor. Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+    <!-- Advice Modal -->
+    <div id="tip-modal" class="fixed inset-0 z-50 hidden" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+        <!-- Backdrop -->
+        <div class="fixed inset-0 bg-black/60 backdrop-blur-sm transition-opacity opacity-0" id="modal-backdrop"></div>
+
+        <div class="fixed inset-0 z-10 w-screen overflow-y-auto">
+            <div class="flex min-h-full items-center justify-center p-4 text-center sm:p-0">
+                <!-- Modal Panel -->
+                <div class="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-2xl opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+                    id="modal-panel">
+
+                    <!-- Close Button -->
+                    <button type="button"
+                        class="absolute right-4 top-4 z-10 rounded-full bg-white/80 p-1 text-gray-400 hover:text-gray-500 hover:bg-white focus:outline-none focus:ring-2 focus:ring-primary"
+                        id="close-modal">
+                        <span class="sr-only">Cerrar</span>
+                        <span class="material-symbols-outlined text-2xl font-bold">close</span>
+                    </button>
+
+                    <!-- Modal Content -->
+                    <div class="bg-white">
+                        <!-- Image Header -->
+                        <div class="h-64 w-full overflow-hidden">
+                            <img src="" alt="Advice Image" id="modal-image" class="h-full w-full object-cover">
+                        </div>
+
+                        <div class="px-6 py-6 md:px-8 md:py-8">
+                            <h3 class="text-2xl font-black leading-6 text-[#181111] mb-6" id="modal-title"></h3>
+                            <div class="mt-2 text-sm text-gray-600 space-y-4 overflow-y-auto max-h-[60vh] pr-2 custom-scrollbar"
+                                id="modal-body">
+                                <!-- Content will be injected here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const modal = document.getElementById('tip-modal');
+            const backdrop = document.getElementById('modal-backdrop');
+            const panel = document.getElementById('modal-panel');
+            const closeBtn = document.getElementById('close-modal');
+            const modalTitle = document.getElementById('modal-title');
+            const modalImage = document.getElementById('modal-image');
+            const modalBody = document.getElementById('modal-body');
+            let isOpen = false;
+
+            // Function to open modal
+            const openModal = (title, imageSrc, contentHtml) => {
+                if (isOpen) return;
+                isOpen = true;
+
+                modalTitle.innerText = title;
+                modalImage.src = imageSrc;
+                modalBody.innerHTML = contentHtml; // Use innerHTML to preserve formatting
+
+                modal.classList.remove('hidden');
+
+                // Small timeout for transition
+                setTimeout(() => {
+                    backdrop.classList.remove('opacity-0');
+                    panel.classList.remove('opacity-0', 'translate-y-4', 'sm:translate-y-0', 'sm:scale-95');
+                }, 10);
+
+                document.body.style.overflow = 'hidden'; // Prevent background scrolling
+            };
+
+            // Function to close modal
+            const closeModal = () => {
+                if (!isOpen) return;
+                isOpen = false;
+
+                backdrop.classList.add('opacity-0');
+                panel.classList.add('opacity-0', 'translate-y-4', 'sm:translate-y-0', 'sm:scale-95');
+
+                setTimeout(() => {
+                    modal.classList.add('hidden');
+                    document.body.style.overflow = '';
+                    modalBody.innerHTML = ''; // Clear content
+                }, 300); // Match transition duration
+            };
+
+            // Event Listeners for Cards
+            document.querySelectorAll('article').forEach(card => {
+                card.addEventListener('click', (e) => {
+                    // Prevent if clicking links/buttons inside card if any (future proofing)
+                    if (e.target.closest('a') || e.target.closest('button')) return;
+
+                    const title = card.querySelector('h3').innerText.trim();
+                    // Get raw background image url string
+                    const bgStyle = card.querySelector('.bg-cover').style.backgroundImage;
+                    // Extract url(...) content. Clean "url(" and ")" " and '
+                    const imageSrc = bgStyle.replace(/url\(['"]?(.*?)['"]?\)/i, "$1");
+
+                    const content = card.querySelector('.content-source').innerHTML;
+
+                    openModal(title, imageSrc, content);
+                });
+            });
+
+            // Close listeners
+            closeBtn.addEventListener('click', closeModal);
+
+            // Close on click outside (backdrop)
+            modal.addEventListener('click', (e) => {
+                if (e.target.id === "modal-backdrop" || e.target.closest('#modal-backdrop')) {
+                    closeModal();
+                }
+                // Try to catch the click on the wrapper div if it bubbles up
+                if (e.target.parentElement && e.target.parentElement.id === "tip-modal") {
+                    // check if click was outside panel (bounding box check is safer usually, but structure here puts panel inside wrapper)
+                }
+            });
+
+            // Also close if clicking the outer wrapper which is the background for the panel centering
+            const outerWrapper = modal.querySelector('.fixed.inset-0.z-10.w-screen'); // The scrollable wrapper
+            outerWrapper.addEventListener('click', (e) => {
+                if (e.target === outerWrapper || e.target.classList.contains('min-h-full')) {
+                    closeModal();
+                }
+            });
+
+            // Close on Escape key
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape' && isOpen) closeModal();
+            });
+        });
+    </script>
+</body>
+
+</html>
