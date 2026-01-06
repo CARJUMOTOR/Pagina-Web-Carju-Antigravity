@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html class="light" lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Taller Mecánico en Griñón - Carjumotor | Chapa, Pintura y Neumáticos</title>
+    <meta name="description"
+        content="Taller especializado en Griñón. Chapa, pintura, mecánica general y neumáticos Goodyear-Dunlop. Coche de sustitución gratuito. ¡Pide tu cita hoy!">
+    <meta name="keywords"
+        content="taller mecanico griñon, chapa y pintura humanes, neumaticos torrejon de la calzada, coche sustitucion cubas de la sagra, carjumotor.">
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;family=Noto+Sans:wght@400;500;700;900&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#ec1313",
+                        "background-light": "#f8f6f6",
+                        "background-dark": "#221010",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"],
+                        "body": ["Noto Sans", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark text-[#181111] font-display antialiased overflow-x-hidden">
+    <a aria-label="Chat on WhatsApp"
+        class="fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 bg-[#25D366] rounded-full shadow-lg hover:scale-110 transition-transform duration-300"
+        href="https://wa.me/34918149116?text=Hola%20Carjumotor,%20necesito%20información" target="_blank"
+        rel="noopener noreferrer">
+        <span class="material-symbols-outlined text-white text-3xl">chat</span>
+    </a>
+    <header class="sticky top-0 z-40 w-full bg-yellow-50 border-b border-[#f4f0f0] shadow-sm">
+        <div class="layout-container flex justify-center w-full">
+            <div class="flex items-center justify-between w-full max-w-[1280px] px-4 py-3 md:px-10">
+                <div class="flex items-center gap-2 text-[#181111]">
+                    <img src="assets/Logo-Carju.png" alt="Carjumotor" class="h-20 w-auto">
+                </div>
+                <div class="hidden md:flex flex-1 justify-end gap-8 items-center">
+                    <nav class="flex items-center gap-6 lg:gap-9">
+                        <a class="text-[#181111] hover:text-primary text-sm font-medium leading-normal transition-colors"
+                            href="index.html">Inicio</a>
+                        <a class="text-[#181111] hover:text-primary text-sm font-medium leading-normal transition-colors"
+                            href="servicios.html">Servicios</a>
+                        <a class="text-[#181111] hover:text-primary text-sm font-medium leading-normal transition-colors"
+                            href="consejos.html">Consejos</a>
+                        <a class="text-[#181111] hover:text-primary text-sm font-medium leading-normal transition-colors"
+                            href="galeria.html">Galería</a>
+                        <a class="text-[#181111] hover:text-primary text-sm font-medium leading-normal transition-colors"
+                            href="contacto.html">Contacto</a>
+                    </nav>
+                    <div class="hidden lg:flex flex-col text-right mr-4">
+                        <a href="tel:918149116"
+                            class="text-sm font-bold text-[#181111] hover:text-primary transition-colors">918 149
+                            116</a>
+                    </div>
+                    <img src="assets/logo-eurotaller.png" alt="Eurotaller" class="h-10 w-auto object-contain">
+                </div>
+                <button class="md:hidden text-[#181111] p-2">
+                    <span class="material-symbols-outlined">menu</span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main class="flex flex-col w-full items-center">
+        <section class="w-full bg-white">
+            <div class="max-w-[1280px] w-full mx-auto px-4 md:px-10 py-5">
+                <div class="flex min-h-[500px] flex-col gap-6 bg-cover bg-center bg-no-repeat rounded-xl items-start justify-end px-6 py-10 relative overflow-hidden"
+                    data-alt="Modern car repair shop facade in Griñón with clean branding"
+                    style='background-image: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.7) 100%), url("assets/Foto-fachada .png");'>
+                    <div class="flex flex-col gap-4 text-left max-w-2xl relative z-10 mb-10 ml-10">
+                        <h1 class="text-white text-5xl font-bold leading-tight tracking-tight">
+                            Tu taller de confianza en Griñón
+                        </h1>
+                        <p class="text-gray-200 text-xl font-normal leading-relaxed max-w-lg">
+                            Expertos en mecánica general, vehículos eléctricos y chapa y pintura. Mantenimiento de
+                            calidad para que tu vehículo siempre esté a punto.
+                        </p>
+                        <div class="pt-4">
+                            <a href="contacto.html"
+                                class="w-auto inline-block px-6 py-2 text-sm font-medium rounded-lg bg-primary hover:bg-red-700 text-white transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                                <span class="truncate">Pedir Cita Ahora</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="w-full bg-white">
+            <div class="max-w-[960px] w-full mx-auto px-4 py-16">
+                <div class="flex flex-col gap-6 text-center items-center">
+                    <h2 class="text-[#181111] text-3xl md:text-4xl font-black leading-tight tracking-tight">
+                        Sobre Carjumotor
+                    </h2>
+                    <p class="mb-4">Taller mecánico en Griñón. Rápidos y profesionales. Porque sabemos que estar sin
+                        coche puede complicar tu día a día ofrecemos coche de sustitución gratuito para que no retrases
+                        tu visita al taller. Trabajamos con todas las compañías de seguros, nos encargamos de la gestión
+                        de los partes y somos un taller concertado de la Mutua Madrileña y Mapfre.</p>
+                    <p class="mb-4">Para ofrecer un buen servicio a ti y a tu vehículo solo trabajamos con las mejores
+                        marcas del mercado. Realizamos pre ITV, cambio de aceite y filtros, cambio de lunas, pulido de
+                        faros, cargas de aire acondicionado, mecánica general. No hay coche que se resista a nuestro
+                        equipo de mecánicos. Estamos especializados en vehículos eléctricos e híbridos enchufables.</p>
+                    <p class="mb-4">Somos Especialistas en cambio de neumáticos, trabajamos con las primeras marcas
+                        Goodyear y Dunlop. Ofrecemos un servicio de chapa y pintura donde garantizamos nuestros trabajos
+                        hasta 12 meses. Di adiós a ese molesto rayón o a ese bollo que hiciste aparcando en el garaje.
+                        Prestamos máxima atención a los acabados para que tu coche quede como nuevo.</p>
+                    <p class="mb-4">Somos un taller de la red Eurotaller. Formamos parte de la red de talleres ACOAT,
+                        estando concertados con ALLIANZ y FENIX SEGUROS. También somos un taller certificado del CENTRO
+                        ZARAGOZA.</p>
+                    <p class="mb-4">Estamos concertados y ofrecemos nuestros servicios en los renting ARVAL, ALPHABET;
+                        AYVENS, BBVA RENTING, BANSACAR, SANTANDER RENTING y damos cobertura a la zona sur de Madrid en
+                        especial a los pueblos de Griñón, Serranillos del Valle, Torrejón de La Calzada, Torrejón de
+                        Velasco, Humanes y Cubas de La Sagra.</p>
+                    <p class="font-medium">Pide tu cita y ven a vernos, estaremos encantados de tenerte con nosotros. Si
+                        vienes por una avería, lo valoraremos y te haremos un presupuesto personalizado y sin
+                        compromiso. Si tu coche necesita una revisión, ven a Carjumotor, tu taller de confianza.</p>
+
+                    <div class="flex flex-wrap justify-center items-center gap-10 mt-12 w-full px-4">
+                        <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+                            style="background-color: #ffffff;">
+                            <img src="assets/Logo-cambio neumaticos.png" alt="Cambio de Neumáticos"
+                                class="h-52 w-auto object-contain">
+                        </div>
+                        <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+                            style="background-color: #ffffff;">
+                            <img src="assets/Logo-chapapintura.png" alt="Chapa y Pintura"
+                                class="h-52 w-auto object-contain">
+                        </div>
+                        <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+                            style="background-color: #ffffff;">
+                            <img src="assets/Logo-equipomecanicos.png" alt="Equipo de Mecánicos"
+                                class="h-52 w-auto object-contain">
+                        </div>
+                        <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+                            style="background-color: #ffffff;">
+                            <img src="assets/Logo-mecanica general.png" alt="Mecánica General"
+                                class="h-52 w-auto object-contain">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="w-full bg-background-light dark:bg-[#1a1a1a] py-16" id="services">
+            <div class="max-w-[1280px] w-full mx-auto px-4 md:px-10">
+                <div class="flex flex-col gap-10">
+                    <div class="flex flex-col gap-4 text-center md:text-left">
+                        <h2
+                            class="text-[#181111] dark:text-white text-3xl md:text-4xl font-black leading-tight tracking-tight">
+                            Nuestros Servicios
+                        </h2>
+                        <p
+                            class="text-[#4b5563] dark:text-gray-300 text-base md:text-lg font-normal leading-normal max-w-[720px]">
+                            Ofrecemos una amplia gama de servicios para el mantenimiento integral de su vehículo.
+                        </p>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                        <div
+                            class="flex flex-col gap-4 rounded-xl border border-gray-200 bg-white p-6 shadow-sm hover:shadow-md transition-shadow group">
+                            <div
+                                class="w-12 h-12 flex items-center justify-center rounded-full bg-red-50 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+                                <span class="material-symbols-outlined text-3xl">build</span>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <h3 class="text-[#181111] text-xl font-bold">Mecánica General</h3>
+                                <p class="text-gray-600 text-sm leading-relaxed">Reparación de motores, embragues, cajas
+                                    de cambio y sistemas de frenado con recambios de primera calidad.</p>
+                            </div>
+                        </div>
+                        <div
+                            class="flex flex-col gap-4 rounded-xl border border-gray-200 bg-white p-6 shadow-sm hover:shadow-md transition-shadow group">
+                            <div
+                                class="w-12 h-12 flex items-center justify-center rounded-full bg-red-50 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+                                <span class="material-symbols-outlined text-3xl">directions_car</span>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <h3 class="text-[#181111] text-xl font-bold">Lunas</h3>
+                                <p class="text-gray-600 text-sm leading-relaxed">Sustitución y reparación de parabrisas.
+                                    Trabajamos con todas las aseguradoras.</p>
+                            </div>
+                        </div>
+                        <div
+                            class="flex flex-col gap-4 rounded-xl border border-gray-200 bg-white p-6 shadow-sm hover:shadow-md transition-shadow group">
+                            <div
+                                class="w-12 h-12 flex items-center justify-center rounded-full bg-red-50 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+                                <span class="material-symbols-outlined text-3xl">troubleshoot</span>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <h3 class="text-[#181111] text-xl font-bold">Diagnosis</h3>
+                                <p class="text-gray-600 text-sm leading-relaxed">Detección precisa de averías
+                                    electrónicas con equipos de diagnóstico de última generación.</p>
+                            </div>
+                        </div>
+                        <div
+                            class="flex flex-col gap-4 rounded-xl border border-gray-200 bg-white p-6 shadow-sm hover:shadow-md transition-shadow group">
+                            <div
+                                class="w-12 h-12 flex items-center justify-center rounded-full bg-red-50 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+                                <span class="material-symbols-outlined text-3xl">tire_repair</span>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <h3 class="text-[#181111] text-xl font-bold">Neumáticos</h3>
+                                <p class="text-gray-600 text-sm leading-relaxed">Venta, montaje, equilibrado y
+                                    alineación de dirección. Las mejores marcas al mejor precio.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center pt-6">
+                        <a href="servicios.html"
+                            class="flex items-center justify-center rounded-lg h-12 px-8 bg-white border border-gray-200 hover:border-primary hover:text-primary text-[#181111] text-base font-bold transition-all shadow-sm hover:shadow-md">
+                            Ver todos nuestros servicios
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="w-full bg-[#f8f6f6] py-16">
+        <div class="max-w-[1280px] w-full mx-auto px-4 md:px-10">
+            <div class="flex flex-col gap-10">
+                <div class="text-center">
+                    <h2 class="text-[#181111] text-3xl md:text-4xl font-black leading-tight tracking-tight mb-4">
+                        Contacta con Nosotros
+                    </h2>
+                    <p class="text-[#4b5563] text-lg">Estamos aquí para ayudarte. ¡Visítanos o llámanos!</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="flex flex-col items-center text-center p-6 bg-white rounded-xl shadow-sm">
+                        <div
+                            class="w-12 h-12 flex items-center justify-center rounded-full bg-red-50 text-primary mb-4">
+                            <span class="material-symbols-outlined text-3xl">location_on</span>
+                        </div>
+                        <h3 class="text-lg font-bold mb-2">Dirección</h3>
+                        <p class="text-gray-600">Calle Uruguay 2<br>Griñón, 28971 Madrid</p>
+                    </div>
+                    <div class="flex flex-col items-center text-center p-6 bg-white rounded-xl shadow-sm">
+                        <div
+                            class="w-12 h-12 flex items-center justify-center rounded-full bg-red-50 text-primary mb-4">
+                            <span class="material-symbols-outlined text-3xl">call</span>
+                        </div>
+                        <h3 class="text-lg font-bold mb-2">Teléfono</h3>
+                        <div class="flex flex-col gap-1">
+                            <span class="text-gray-600">918 149 116</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-center text-center p-6 bg-white rounded-xl shadow-sm">
+                        <div
+                            class="w-12 h-12 flex items-center justify-center rounded-full bg-red-50 text-primary mb-4">
+                            <span class="material-symbols-outlined text-3xl">mail</span>
+                        </div>
+                        <h3 class="text-lg font-bold mb-2">Email</h3>
+                        <a href="mailto:carjumotor@gmail.com"
+                            class="text-gray-600 hover:text-primary transition-colors">carjumotor@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-white text-gray-900 py-12 border-t border-gray-200">
+        <div class="max-w-[1280px] w-full mx-auto px-4 md:px-10 flex flex-col md:flex-row justify-between gap-10 mb-12">
+            <div class="flex flex-col gap-4 max-w-sm">
+                <div class="flex items-center gap-2">
+                    <span class="material-symbols-outlined text-primary text-2xl">car_repair</span>
+                    <h2 class="text-xl font-bold">Carjumotor</h2>
+                </div>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Su taller de confianza en Griñón. Especialistas en mecánica general, mantenimiento y diagnosis
+                    electrónica. Calidad y servicio garantizados.
+                </p>
+                <div class="flex gap-4 mt-2">
+                    <a class="text-gray-600 hover:text-primary transition-colors" href="#"><span
+                            class="material-symbols-outlined">public</span></a>
+                    <a class="text-gray-600 hover:text-primary transition-colors" href="#"><span
+                            class="material-symbols-outlined">alternate_email</span></a>
+                </div>
+            </div>
+            <div class="flex flex-col gap-4 w-full">
+                <h3 class="text-lg font-bold text-gray-900">Área de Servicio</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-2">
+                    <!-- Griñón -->
+                    <details class="group border-b border-gray-200 last:border-0">
+                        <summary
+                            class="flex justify-between items-center py-2 cursor-pointer list-none text-primary hover:text-gray-900 transition-colors">
+                            <span class="font-bold">Griñón</span>
+                            <span
+                                class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+                        </summary>
+                        <div class="pb-4 text-gray-600 text-sm leading-relaxed space-y-4">
+                            <p><strong>CHAPA Y PINTURA GRIÑÓN</strong> En Carjumotor somos expertos en reparaciones de
+                                chapa y pintura en Griñón de automóviles de todas las marcas y modelos. Estamos
+                                firmemente comprometidos con facilitar trabajos a medida, de máxima calidad y con
+                                excelentes acabados. Garantizamos todos los trabajos durante 12 meses puesto que
+                                empleamos marcas de pintura y lacas de primera calidad. Pintamos desmontando las
+                                distintas piezas para que el resultado sea inmejorable. Reparamos todo tipo de
+                                desperfectos, golpes, abolladuras y rozaduras en la chapa de cualquier vehículo.
+                                Contamos con cabina de pintado y secado de vehículos y trabajamos con pinturas de alta
+                                calidad y materiales de las mejores marcas del sector. Somos a su vez un taller
+                                multimarca para reparaciones y mantenimientos de vehículos, encargándonos de poner a
+                                punto el motor de tu coche y cambiar frenos, filtros, aceites, etcétera.</p>
+
+                            <p><strong>COCHE DE SUSTITUCIÓN GRIÑÓN</strong> En Carjumotor te ofrecemos un coche de
+                                sustitución en Griñón para que no te quedes parado mientras reparamos el tuyo, un
+                                servicio que incluye la recogida de a domicilio de tu vehículo en el caso de que no nos
+                                lo puedas traer. Somos un taller de confianza adherido a la red Vulco que pone a tu
+                                servicio una larga trayectoria y experiencia en reparaciones de mecánica, electricidad,
+                                chapa y pintura de turismos y vehículos industriales. Contamos con un equipo profesional
+                                de mecánicos que te atiende con rapidez gracias a que disponemos de la tecnología más
+                                avanzada para reparaciones de mecánica, así como los equipos de diagnosis multimarca más
+                                punteros del mercado. También sustituimos cualquier pieza en tu vehículo con recambios
+                                de calidad.</p>
+
+                            <p><strong>TALLERES CONCERTADOS MUTUA MADRILEÑA GRIÑÓN</strong> ¿Buscas talleres concertados
+                                de Mutua Madrileña en Griñón? Queremos que conozcas el nuestro, Carjumotor es un
+                                concesionario con coches de ocasión de todas las marcas y servicios de mecánica
+                                completos, además de chapa y pintura y asistencia en carretera. Ofrecemos servicio de
+                                coche de sustitución. Consulta condiciones y disponibilidad. Si tienes un arañazo, golpe
+                                o necesitas pintar el coche entero o reparar la pintura de tu vehículo, lo hacemos con
+                                un servicio rápido y de máxima eficiencia. Nos ocupamos de revisiones de mecánica rápida
+                                con un método de diagnóstico riguroso y preciso. También nos encargamos de tareas de
+                                cambio y revisión de ruedas, revisión del motor, cambio de aceite y filtros. Tenemos las
+                                infraestructuras adecuadas para acometer todo tipo de necesidades de reparación.</p>
+                        </div>
+                    </details>
+
+                    <!-- Humanes de Madrid -->
+                    <details class="group border-b border-gray-200 last:border-0">
+                        <summary
+                            class="flex justify-between items-center py-2 cursor-pointer list-none text-primary hover:text-gray-900 transition-colors">
+                            <span class="font-bold">Humanes de Madrid</span>
+                            <span
+                                class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+                        </summary>
+                        <div class="pb-4 text-gray-600 text-sm leading-relaxed space-y-4">
+                            <p><strong>TALLER DE CHAPA Y PINTURA HUMANES</strong> Si busca un taller de chapa y
+                                pintura en Humanes, Carjumotor S.L es un taller concertado con la red de Goodyear-Dunlop
+                                que se distinguen por su atención al cliente y profesionalidad. Ofrecemos un servicio
+                                integral del automóvil disponiendo de personal cualificado y material de última
+                                tecnología para la realización de todos nuestros trabajos. Si le inquieta su movilidad
+                                no se preocupe, le ofrecemos un coche de sustitución gratuito, sin coste alguno y nos
+                                podemos hacer cargo de una parte de la franquicia previo estudio. Asimismo, si pinta su
+                                vehículo por entero con nosotros podrá disfrutar de una limpieza integral sin coste
+                                alguno. Si hace tiempo que tiene una rayón o golpe que le afea su vehículo, no dude en
+                                traernos su vehículo para que le podamos dar un presupuesto de la reparación a precios
+                                muy competitivos y todo ello con un acabado de calidad. En nuestro taller podrá efectuar
+                                todas las reparaciones de chapa y pintura con total confianza, disponemos de los mejores
+                                profesionales y equipo para que los trabajos tengan una terminación óptima. Utilizamos
+                                pinturas y lacas de primeras marcas desmontando todas las piezas. Garantizamos todos
+                                nuestros trabajos. Trabajamos con todas las compañías de seguro y le gestionamos la
+                                operativa de rellenar los partes si así lo desea. Todos nuestros trabajos están
+                                garantizados por un periodo de 12 meses, por lo que no tendrá que preocuparse por los
+                                posibles fallos o defectos que en ocasiones surgen al pintar un vehículo. Nuestro
+                                consejo es que desconfíe de los sitios «baratos» que le hacen ofertas de pintura por
+                                precios incoherentes, no suelen utilizar ni pinturas ni lacas de calidad y tampoco
+                                desmontan todas las piezas, por lo que los acabados no son de calidad y tiene un alto
+                                riesgo de que surjan defectos a corto y medio plazo que le harán perder tiempo y dinero.
+                            </p>
+
+                            <p><strong>COCHE DE SUSTITUCIÓN HUMANES DE MADRID</strong> ¿Tu trabajo y tus obligaciones
+                                familiares te obligan a disponer de tu vehículo todos los días pero el tuyo se ha
+                                averiado? Si es así, Carjumotor, un taller con coche de sustitución en Humanes de
+                                Madrid, te será de gran utilidad. Podrás disponer un automóvil de cortesía hasta que te
+                                devolvamos el tuyo. Nuestro taller, además, cuenta con completas y equipadas
+                                instalaciones en las que nos ocupamos de arreglar, en muy poco tiempo, cualquier avería
+                                que sufra tu automóvil. Nos comprometemos a realizar el diagnóstico y el presupuesto sin
+                                compromiso y colaboramos con una gran variedad de compañías aseguradoras. También te
+                                limpiaremos el automóvil antes de entregártelo.</p>
+
+                            <p><strong>TALLER MECÁNICO HUMANES DE MADRID</strong> Si busca un taller mecánico en Humanes
+                                de Madrid que realice servicios de mecánica rápida de alta calidad, revisiones y
+                                reparaciones con la posibilidad de contar con un coche de sustitución mientras el tuyo
+                                esté reparándose, acércate u consulta con Carjumotor. Nuestro equipo de mecánicos
+                                profesionales pone a tu disposición el diagnóstico con escáner, rápido y eficaz. Te
+                                ofrecemos las mayores garantías en todos nuestros trabajos. Realizamos todo tipo de
+                                trabajos de mecánica en general comos son cambio de filtros, frenos, aceite, neumáticos,
+                                etc., además de revisiones periódicas y trabajos de mantenimiento, porque un coche en
+                                buen estado es tu segurio al volante. Cualquier daño de chapa que sufra, nosotros lo
+                                reparamos. No importa si es un pequeño arañazo o una gran abolladura, nuestros expertos
+                                en chapa y pintura dejarán tu coche como nuevo.</p>
+                        </div>
+                    </details>
+
+                    <!-- Torrejón de la Calzada -->
+                    <details class="group border-b border-gray-200 last:border-0">
+                        <summary
+                            class="flex justify-between items-center py-2 cursor-pointer list-none text-primary hover:text-gray-900 transition-colors">
+                            <span class="font-bold">Torrejón de la Calzada</span>
+                            <span
+                                class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+                        </summary>
+                        <div class="pb-4 text-gray-600 text-sm leading-relaxed space-y-4">
+                            <p><strong>TALLER DE CHAPA Y PINTURA EN TORREJÓN DE LA CALZADA</strong> Si busca un taller
+                                de
+                                chapa y pintura Torrejón en de la Calzada, en Carjumotor prestamos ese servicio con
+                                coche de sustitución gratuito. Si tiene un rayón o golpe no dude en traer su vehículo
+                                para que le podamos dar un presupuesto de la reparación con precios asequibles y un
+                                acabado profesional. Nuestro taller pertenece a la red de Goodyear-Dunlop que se
+                                distinguen por su atención al cliente y profesionalidad. Se pone a su disposición un
+                                servicio integral del automóvil disponiendo de personal altamente cualificado y medios
+                                de última tecnología para la realización de todos nuestros trabajos.</p>
+
+                            <p>En nuestras dependencias podrá realizar todas las reparaciones de chapa y pintura con
+                                total confianza, ofrecemos los mejores profesionales y equipo para que los trabajos
+                                ejecutados ofrezcan una calidad inmejorable. Para ello, utilizamos pinturas y lacas de
+                                primeras marcas desmontando todas las piezas. Nuestros trabajos están garantizados por
+                                un periodo de 12 meses.</p>
+
+                            <p>Somos partidarios que no confíe en los lugares «baratos» que le ofrecen trabajos de
+                                pintura por precios muy bajos, esto es indicio de que no van a utilizar ni pinturas ni
+                                lacas de calidad y no desmontarán cada pieza, por lo que los acabados no ofrecerán
+                                calidad y habrá un riesgo considerable de que se produzcan defectos en un corto periodo
+                                de tiempo lo que le producirá un quebranto económico. También existe la posibilidad de
+                                trabajar para todas las compañías de seguro. Si lo que le preocupa es la falta de
+                                movilidad no se alarme, le ofrecemos un coche de cortesía sin coste alguno.</p>
+                        </div>
+                    </details>
+
+                    <!-- Torrejón de Velasco -->
+                    <details class="group border-b border-gray-200 last:border-0">
+                        <summary
+                            class="flex justify-between items-center py-2 cursor-pointer list-none text-primary hover:text-gray-900 transition-colors">
+                            <span class="font-bold">Torrejón de Velasco</span>
+                            <span
+                                class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+                        </summary>
+                        <div class="pb-4 text-gray-600 text-sm leading-relaxed space-y-4">
+                            <p><strong>TALLER DE CHAPA Y PINTURA EN TORREJÓN DE VELASCO</strong> En Carjumotor, damos
+                                servicio de taller de chapa y pintura en Torrejón de Velasco. ¿Hace tiempo que tiene un
+                                rayón o golpe que le deslucce su vehículo?, en ese caso no dude en traer su vehículo
+                                para que le podamos dar un presupuesto de la reparación a precios muy competitivos y
+                                todo ello con un acabado de calidad. Somos un taller concertado con la red de
+                                Goodyear-Dunlop. En nuestras instalaciones podrá llevar a cabo todas las reparaciones de
+                                chapa y pintura con total confianza, disponemos de los mejores profesionales y equipo
+                                para que los trabajos realizados tengan una terminación inmejorable. Para ello,
+                                utilizamos pinturas y lacas de primeras marcas desmontando todas las piezas. Todos
+                                nuestros trabajos están garantizados por un periodo de 12 meses.</p>
+                        </div>
+                    </details>
+
+                    <!-- Cubas de la Sagra -->
+                    <details class="group border-b border-gray-200 last:border-0">
+                        <summary
+                            class="flex justify-between items-center py-2 cursor-pointer list-none text-primary hover:text-gray-900 transition-colors">
+                            <span class="font-bold">Cubas de la Sagra</span>
+                            <span
+                                class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+                        </summary>
+                        <div class="pb-4 text-gray-600 text-sm leading-relaxed space-y-4">
+                            <p><strong>TALLER DE CHAPA Y PINTURA EN CUBAS DE LA SAGRA</strong> Prestamos servicios de
+                                taller de chapa y pintura en Cubas de la Sagra y toda la zona de Madrid Sur, con coche
+                                de sustitución gratuito. Nuestro taller, Carjumotor S.L, está franquiciado con la red de
+                                Goodyear-Dunlop que se diferencian por su cuidado al cliente y profesionalidad.
+                                Ofrecemos
+                                un servicio integral del automóvil disponiendo de personal altamente capacitado y medios
+                                adecuados a la última tecnología para la realización de todos nuestros trabajos. Si
+                                tiene un rayón o golpe no dude en traer su vehículo para que le podamos dar un
+                                presupuesto de la reparación con precios asequibles y un acabado profesional.</p>
+
+                            <p>En nuestras instalaciones podrá llevar a cabo todas las reparaciones de chapa y pintura
+                                con total confianza, disponemos de los mejores profesionales y equipo para que los
+                                trabajos realizados tengan una terminación inmejorable. Para ello, utilizamos pinturas y
+                                lacas de primeras marcas desmontando todas las piezas. Podemos trabajar con todas las
+                                aseguradoras y le gestionamos la operativa de rellenar los partes si usted así lo desea.
+                                Nuestros trabajos están garantizados por un periodo de 12 meses.</p>
+
+                            <p>Si le inquieta su movilidad no se preocupe, le ofrecemos un coche de sustitución sin
+                                coste alguno y nos podemos hacer cargo de una parte de la franquicia previo estudio.
+                                Asimismo, si pinta su vehículo por entero con nosotros podrá disfrutar de una limpieza
+                                integral sin coste alguno. Para finalizar le aconsejamos que no confíe en los lugares
+                                que le ofrecen trabajos de pintura por precios muy baratos, esto hace sospechar que no
+                                van a recurrir a pinturas ni lacas de calidad y que no desmontarán cada pieza.</p>
+
+                            <p><strong>COCHE DE SUSTITUCIÓN CUBAS DE LA SAGRA</strong> En Carjumotor no sólo te
+                                ofrecemos
+                                nuestros servicios profesionales de chapa y pintura, también facilitamos un coche de
+                                sustitución en Cubas de la Sagra si tienes que dejar el tuyo en nuestras instalaciones
+                                para reparar una avería. Además, también pensamos en los clientes que no tienen tiempo
+                                para venir a nuestro taller y si es tu caso, podemos pasar por el lugar que nos
+                                indiques, para recoger el coche que quieras que te reparemos. Nos ocupamos de todo tipo
+                                de trabajos especializados. Contamos con la maquinaria más actual, como una bancada
+                                universal o productos de calidad como pinturas y barnices de primeras marcas.</p>
+                        </div>
+                    </details>
+
+                    <!-- Serranillos del Valle -->
+                    <details class="group border-b border-gray-200 last:border-0">
+                        <summary
+                            class="flex justify-between items-center py-2 cursor-pointer list-none text-primary hover:text-gray-900 transition-colors">
+                            <span class="font-bold">Serranillos del Valle</span>
+                            <span
+                                class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+                        </summary>
+                        <div class="pb-4 text-gray-600 text-sm leading-relaxed space-y-4">
+                            <p><strong>TALLER DE CHAPA Y PINTURA EN SERRANILLOS DEL VALLE</strong> En Carjumotor,
+                                prestamos servicio de taller de chapa y pintura en Serranillos del Valle, con coche de
+                                sustitución gratuito. Nuestro taller, Carjumotor S.L, está franquiciado con la red de
+                                Goodyear-Dunlop que se diferencian por su cuidado al cliente y profesionalidad.
+                                Ofrecemos un servicio integral del automóvil disponiendo de personal altamente
+                                capacitado y medios adecuados a la última tecnología para la realización de todos
+                                nuestros trabajos.</p>
+
+                            <p>En nuestras instalaciones podrá llevar a cabo toda clase de reparaciones de chapa y
+                                pintura con total seguridad, ofrecemos un servicio que consta de profesionales con una
+                                gran experiencia y un equipo para que los trabajos se beneficien de una terminación
+                                insuperable. Recurrimos a pinturas y a lacas de primeras marcas desmontando piezas por
+                                pieza. Garantizamos todos nuestros trabajos.</p>
+
+                            <p>Si hace tiempo que tiene una rayón o golpe que le deslustra su automóvil, no dude en
+                                traernos su vehículo para que le podamos dar un presupuesto de la reparación a precios
+                                muy asequibles y todo ello con un acabado de calidad. Podemos trabajar con todas las
+                                aseguradoras y le gestionamos la operativa de rellenar los partes si usted así lo desea.
+                            </p>
+
+                            <p>Si lo que le incomoda es perder poder desplazarse, no se preocupe, le ofrecemos un coche
+                                de sustitución gratis y nos podemos hacer cargo de una parte de la franquicia si se dan
+                                las condiciones necesarias. Asimismo, si pinta su coche por entero con nosotros le
+                                realizaremos una limpieza integral sin coste alguno. Cabe recordar que todos nuestros
+                                trabajos están garantizados por un periodo de 12 meses, por lo que no deberá de
+                                preocuparse por los posibles errores o desperfectos que en ocasiones pueden ocasionarse
+                                al pintar un vehículo.</p>
+
+                            <p>Por último, le advertimos que desconfíe de los lugares «baratos» que le hacen ofertas
+                                para pintar su vehículo por precios muy bajos, en estos casos esto se debe a que no
+                                suelen utilizar ni pinturas ni lacas de calidad y no desmontan todas las piezas, por lo
+                                que el resultado no es de calidad y se tiene un alto riesgo de que surjan defectos que
+                                le harán perder tiempo y dinero.</p>
+
+                            <p><strong>COCHE DE SUSTITUCIÓN SERRANILLOS DEL VALLE</strong> En Carjumotor te damos todas
+                                las facilidades si tienes que dejarnos tu coche para reparar una avería o problema
+                                mecánico. Somos un taller con coche de sustitución de Serranillos del Valle, una
+                                alternativa para personas sin tiempo que perder. De esta manera no te verás perjudicado
+                                mientras solucionamos el problema de tu vehículo. Por una parte, somos taller mecánico
+                                de reparaciones, diagnosticamos la avería y proponemos soluciones inmediatas porque
+                                nuestro personal está altamente cualificado. Consulta las condiciones y disponibilidad
+                                de nuestro servicio de coche de sustitución. También somos especialistas es chapa y
+                                pintura para hacer desaparecer las señales de golpes, arañazos, abolladuras o cualquier
+                                otro problema. Finalmente, nos encargamos de la puesta a punto de tu vehículo.</p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </div>
+
+        <div class="max-w-[1280px] w-full mx-auto px-4 md:px-10 border-t border-gray-200 pt-10">
+            <div class="flex flex-col md:flex-row justify-center gap-12 md:gap-24">
+                <div class="flex flex-col gap-4 items-center text-center">
+                    <h3 class="text-lg font-bold text-gray-900">Contacto</h3>
+                    <ul class="text-gray-600 text-sm flex flex-col gap-3">
+                        <li class="flex flex-col items-center gap-1">
+                            <span class="material-symbols-outlined text-primary text-lg">location_on</span>
+                            <span>Calle Uruguay 2, Griñón, 28971 Madrid</span>
+                        </li>
+                        <li class="flex flex-col items-center gap-1">
+                            <span class="material-symbols-outlined text-primary text-lg">call</span>
+                            <div class="flex gap-2">
+                                <a href="tel:918149116" class="hover:text-primary transition-colors">918 149 116</a>
+                            </div>
+                        </li>
+                        <li class="flex flex-col items-center gap-1">
+                            <span class="material-symbols-outlined text-primary text-lg">mail</span>
+                            <a href="mailto:carjumotor@gmail.com"
+                                class="hover:text-primary transition-colors">carjumotor@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex flex-col gap-4 items-center text-center">
+                    <h3 class="text-lg font-bold text-gray-900">Legal</h3>
+                    <ul class="text-gray-600 text-sm flex flex-col gap-2">
+                        <li><a class="hover:text-primary transition-colors" href="aviso-legal.html">Aviso Legal</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="politica-privacidad.html">Política de
+                                Privacidad</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="cookies.html">Política de Cookies</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div
+            class="max-w-[1280px] w-full mx-auto px-4 md:px-10 mt-10 pt-6 border-t border-gray-200 text-center flex flex-col items-center gap-4">
+            <img src="assets/Logo-red.png" alt="Red de Talleres"
+                class="h-12 w-auto opacity-80 hover:opacity-100 transition-opacity">
+            <div class="text-xs text-gray-500">
+                © 2023 Carjumotor. Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+
