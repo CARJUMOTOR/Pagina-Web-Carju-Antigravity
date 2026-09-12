@@ -311,7 +311,7 @@
                                 <label class="text-sm font-bold text-[#181111]" for="subject">Asunto</label>
                                 <select
                                     class="w-full h-12 rounded-lg border border-gray-300 px-4 text-[#181111] focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all bg-white"
-                                    id="subject">
+                                    id="subject" name="subject">
                                     <option>Pedir Cita</option>
                                     <option>Presupuesto</option>
                                     <option>Consulta General</option>
@@ -324,11 +324,28 @@
                                     id="message" name="message" placeholder="Describe brevemente lo que necesitas..."
                                     rows="4" required></textarea>
                             </div>
+                            <!-- Trampa antispam: invisible para personas, los robots la rellenan -->
+                            <div style="position:absolute;left:-9999px;top:-9999px;" aria-hidden="true">
+                                <label for="empresa_web">No rellenes este campo</label>
+                                <input type="text" id="empresa_web" name="empresa_web" tabindex="-1"
+                                    autocomplete="off" />
+                            </div>
+                            <div class="flex items-start gap-3 mt-1">
+                                <input
+                                    class="mt-1 h-4 w-4 shrink-0 rounded border-gray-300 text-primary focus:ring-primary"
+                                    id="privacidad" name="acepta_privacidad" type="checkbox" required />
+                                <label class="text-sm text-gray-600 leading-snug" for="privacidad">
+                                    He leído y acepto la <a href="politica-privacidad.html"
+                                        class="text-primary underline hover:no-underline">Política de Privacidad</a>.
+                                    Usaremos tus datos únicamente para responder a tu consulta.
+                                </label>
+                            </div>
                             <button
                                 class="mt-2 w-full h-12 bg-primary hover:bg-red-700 text-white font-bold rounded-lg transition-colors"
                                 type="submit">
                                 Enviar Mensaje
                             </button>
+                            <p id="form-aviso" class="text-sm" hidden></p>
                         </form>
                     </div>
                     <div class="flex-1 flex flex-col gap-6">
@@ -564,19 +581,40 @@
         document.getElementById('contact-form').addEventListener('submit', function (event) {
             event.preventDefault();
 
-            const btn = event.target.querySelector('button[type="submit"]');
-            const originalText = btn.innerText;
+            const form = this;
+            const btn = form.querySelector('button[type="submit"]');
+            const aviso = document.getElementById('form-aviso');
+            const textoBoton = btn.innerText;
+
+            function mostrar(texto, correcto) {
+                aviso.textContent = texto;
+                aviso.className = 'text-sm rounded-lg p-3 border ' + (correcto
+                    ? 'bg-green-50 text-green-800 border-green-200'
+                    : 'bg-red-50 text-red-800 border-red-200');
+                aviso.hidden = false;
+            }
+
+            // Trampa antispam: si este campo invisible viene relleno, es un robot.
+            // Se descarta en silencio para que no reintente.
+            if (form.elements['empresa_web'] && form.elements['empresa_web'].value !== '') {
+                mostrar('¡Mensaje enviado! Te responderemos lo antes posible.', true);
+                form.reset();
+                return;
+            }
+
+            aviso.hidden = true;
             btn.innerText = 'Enviando...';
             btn.disabled = true;
-            emailjs.sendForm('service_9uud3ei', 'template_fnehqar', this)
+
+            emailjs.sendForm('service_9uud3ei', 'template_fnehqar', form)
                 .then(function () {
-                    alert('¡Mensaje enviado con éxito a Carjumotor!');
-                    document.getElementById('contact-form').reset();
-                    btn.innerText = originalText;
+                    mostrar('¡Mensaje enviado! Te responderemos lo antes posible.', true);
+                    form.reset();
+                    btn.innerText = textoBoton;
                     btn.disabled = false;
-                }, function (error) {
-                    alert('Error al enviar: ' + JSON.stringify(error));
-                    btn.innerText = originalText;
+                }, function () {
+                    mostrar('No hemos podido enviar el mensaje. Vuelve a intentarlo o llámanos al 918 149 116.', false);
+                    btn.innerText = textoBoton;
                     btn.disabled = false;
                 });
         });
