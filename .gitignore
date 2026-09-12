@@ -1,0 +1,18 @@
+# Archivos de trabajo local. NO deben publicarse: todo lo que se sube a este
+# repositorio queda accesible en https://www.carjumotor.es/<nombre-del-archivo>
+
+# Version antigua generada por IA. Contiene datos de contacto FALSOS
+# (WhatsApp 34123456789, email info@carjumotor.com) e imagenes alojadas
+# en servidores de Google que pueden dejar de funcionar.
+backup_index.html
+
+# Documentos de trabajo del taller
+CONTENIDO/
+
+# Notas internas para trabajar con Claude Code
+CLAUDE.md
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
