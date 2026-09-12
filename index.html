@@ -219,13 +219,27 @@
     </script>
 </head>
 
-<body class="bg-background-light dark:bg-background-dark text-[#181111] font-display antialiased overflow-x-hidden">
+<body class="bg-background-light dark:bg-background-dark text-[#181111] font-display antialiased overflow-x-hidden pb-16 md:pb-0">
     <a aria-label="Chat on WhatsApp"
-        class="fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 bg-[#25D366] rounded-full shadow-lg hover:scale-110 transition-transform duration-300"
+        class="fixed bottom-6 right-6 z-50 hidden md:flex items-center justify-center w-14 h-14 bg-[#25D366] rounded-full shadow-lg hover:scale-110 transition-transform duration-300"
         href="https://wa.me/34918149116?text=Hola%20Carjumotor,%20necesito%20información" target="_blank"
         rel="noopener noreferrer">
         <span class="material-symbols-outlined text-white text-3xl">chat</span>
     </a>
+    <!-- Barra de contacto fija, solo en movil. Capa 40: el menu y el modal (capa 50) la tapan -->
+    <div class="md:hidden fixed bottom-0 inset-x-0 z-40 flex border-t border-gray-200 bg-white shadow-[0_-2px_12px_rgba(0,0,0,0.10)]"
+        style="padding-bottom: env(safe-area-inset-bottom);">
+        <a aria-label="Llamar a Carjumotor" href="tel:918149116"
+            class="flex flex-1 items-center justify-center gap-2 bg-primary py-4 font-bold text-white active:bg-red-700">
+            <span class="material-symbols-outlined">call</span>
+            Llamar
+        </a>
+        <a aria-label="Escribir por WhatsApp" href="https://wa.me/34918149116?text=Hola%20Carjumotor,%20necesito%20información" target="_blank" rel="noopener noreferrer"
+            class="flex flex-1 items-center justify-center gap-2 bg-[#25D366] py-4 font-bold text-white active:brightness-95">
+            <span class="material-symbols-outlined">chat</span>
+            WhatsApp
+        </a>
+    </div>
     <header class="sticky top-0 z-40 w-full bg-yellow-50 border-b border-[#f4f0f0] shadow-sm">
         <div class="layout-container flex justify-center w-full">
             <div class="flex items-center justify-between w-full max-w-[1280px] px-4 py-3 md:px-10">
